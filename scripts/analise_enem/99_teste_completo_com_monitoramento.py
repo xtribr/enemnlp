@@ -322,8 +322,30 @@ def main():
         
         tempo_decorrido = time.time() - start_time
         
-        # Imprimir status a cada 5 questões ou na última
+        # Salvar progresso incrementalmente (a cada 5 questões)
         if i % 5 == 0 or i == len(questoes):
+            # Salvar arquivo temporário com progresso
+            output_file_temp = Path(__file__).parent.parent.parent / "results" / f"teste_completo_{args.area}_PROGRESSO.json"
+            output_file_temp.parent.mkdir(parents=True, exist_ok=True)
+            
+            output_data_temp = {
+                'area': args.area,
+                'total': i,
+                'total_final': len(questoes),
+                'correct': stats['correct'],
+                'accuracy': (stats['correct'] / i * 100) if i > 0 else 0,
+                'tempo_total': tempo_decorrido,
+                'tempo_por_questao': tempo_decorrido / i if i > 0 else 0,
+                'distribuicao_predita': dict(respostas_preditas),
+                'distribuicao_correta': dict(respostas_corretas),
+                'resultados': resultados,
+                'timestamp': datetime.now().isoformat(),
+                'status': 'em_progresso'
+            }
+            
+            with open(output_file_temp, 'w', encoding='utf-8') as f:
+                json.dump(output_data_temp, f, indent=2, ensure_ascii=False)
+            
             imprimir_status(i, len(questoes), stats['correct'], tempo_decorrido,
                           respostas_preditas, respostas_corretas)
         

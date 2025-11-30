@@ -3,15 +3,32 @@
 🎯 Sistema de Prompts Adaptativos por TRI
 
 Cria prompts diferentes baseados no nível de dificuldade (TRI) da questão:
-- TRI < 650 (Fácil): Prompt simplificado, direto, sem overthinking
-- TRI 650-750 (Médio): Prompt padrão atual
-- TRI > 750 (Difícil): Prompt detalhado com CoT extenso
+- TRI 200-590 (Fácil): Prompt simplificado, direto, sem overthinking
+- TRI 590-690 (Médio): Prompt padrão com CoT moderado
+- TRI 700+ (Difícil): Prompt detalhado com CoT extenso
+
+Régua Oficial ENEM:
+- Fácil: 200 - 590
+- Médio: 590 - 690
+- Difícil: 700+
 
 Objetivo: Resolver o paradoxo "fácil vs difícil" onde o modelo erra mais questões fáceis.
 """
 
-# Dados TRI das questões de matemática (ENEM 2024)
+# Dados TRI das questões do ENEM 2024
+# ⚠️ IMPORTANTE: Este arquivo atualmente só tem dados de Matemática (136-180)
+# Os dados TRI de Linguagens (1-45), Humanas (46-90) e Natureza (91-135) precisam ser adicionados
+# 
+# Estrutura esperada:
+# {numero_questao: {"TRI": valor_tri, "H": "HXX", "Nivel": "Fácil/Intermediário/Difícil/Muito Difícil", "Tema": "...", "Gab": "A/B/C/D/E"}}
+#
+# Régua TRI Oficial ENEM:
+# - Fácil: 200 - 590
+# - Médio: 590 - 690  
+# - Difícil: 700+
+
 TRI_DATA = {
+    # MATEMÁTICA (136-180) - DADOS COMPLETOS
     136: {"TRI": 755.3, "H": "H13", "Nivel": "Muito Difícil", "Tema": "Grandezas e medidas", "Gab": "C"},
     137: {"TRI": 662.3, "H": "H28", "Nivel": "Intermediário", "Tema": "Estatística e probabilidade", "Gab": "E"},
     138: {"TRI": 705.0, "H": "H3", "Nivel": "Intermediário", "Tema": "Números e operações", "Gab": "B"},
@@ -57,23 +74,35 @@ TRI_DATA = {
     178: {"TRI": 573.5, "H": "H27", "Nivel": "Fácil", "Tema": "Estatística e probabilidade", "Gab": "E"},
     179: {"TRI": 706.9, "H": "H16", "Nivel": "Intermediário", "Tema": "Grandezas e medidas", "Gab": "C"},
     180: {"TRI": 742.5, "H": "H2", "Nivel": "Difícil", "Tema": "Números e operações", "Gab": "E"},
+    
+    # LINGUAGENS (1-45) - ADICIONAR DADOS TRI AQUI
+    # HUMANAS (46-90) - ADICIONAR DADOS TRI AQUI
+    # NATUREZA (91-135) - ADICIONAR DADOS TRI AQUI
 }
 
 def classificar_por_tri(tri_value: float) -> str:
     """
-    Classifica questão por nível de TRI
+    Classifica questão por nível de TRI (RÉGUA OFICIAL DO ENEM)
     
     Args:
         tri_value: Valor TRI da questão
         
     Returns:
         'facil', 'medio' ou 'dificil'
+    
+    Régua Oficial ENEM:
+    - Fácil: 200 - 590
+    - Médio: 590 - 690
+    - Difícil: 700+
     """
-    if tri_value < 650:
-        return 'facil'
-    elif tri_value <= 750:
+    if tri_value < 200:
+        # Valor muito baixo ou inválido - tratar como médio por padrão
         return 'medio'
-    else:
+    elif tri_value < 590:
+        return 'facil'
+    elif tri_value < 690:
+        return 'medio'
+    else:  # tri_value >= 690
         return 'dificil'
 
 def obter_tri_questao(numero: int) -> float:
@@ -83,13 +112,13 @@ def obter_tri_questao(numero: int) -> float:
 
 def criar_prompt_facil() -> str:
     """
-    Prompt para questões FÁCEIS (TRI < 650)
+    Prompt para questões FÁCEIS (TRI 200-590)
     
     Estratégia: Simplificado, direto, sem overthinking
     """
-    return """Você é um especialista em questões de matemática do ENEM.
+    return """Você é um especialista em questões do ENEM.
 
-Esta é uma questão FÁCIL. Mantenha a simplicidade e seja direto.
+Esta é uma questão FÁCIL (TRI 200-590). Mantenha a simplicidade e seja direto.
 
 ⚠️ IMPORTANTE: Questões fáceis são simples. Não complique demais!
 
@@ -113,13 +142,13 @@ Agora, resolva a questão abaixo de forma direta e simples:
 
 def criar_prompt_medio() -> str:
     """
-    Prompt para questões MÉDIAS (TRI 650-750)
+    Prompt para questões MÉDIAS (TRI 590-690)
     
     Estratégia: Prompt padrão com CoT moderado
     """
-    return """Você é um especialista em questões de matemática do ENEM.
+    return """Você é um especialista em questões do ENEM.
 
-Esta é uma questão de DIFICULDADE MÉDIA. Use raciocínio passo-a-passo.
+Esta é uma questão de DIFICULDADE MÉDIA (TRI 590-690). Use raciocínio passo-a-passo.
 
 📋 METODOLOGIA:
 
@@ -151,13 +180,13 @@ Agora, resolva a questão abaixo:
 
 def criar_prompt_dificil() -> str:
     """
-    Prompt para questões DIFÍCEIS (TRI > 750)
+    Prompt para questões DIFÍCEIS (TRI 700+)
     
     Estratégia: CoT extenso e detalhado, múltiplas validações
     """
-    return """Você é um especialista em questões de matemática do ENEM.
+    return """Você é um especialista em questões do ENEM.
 
-Esta é uma questão MUITO DIFÍCIL. Use raciocínio detalhado e múltiplas validações.
+Esta é uma questão MUITO DIFÍCIL (TRI 700+). Use raciocínio detalhado e múltiplas validações.
 
 ⚠️ ATENÇÃO: Questões difíceis exigem cuidado extra e validação rigorosa.
 
@@ -167,11 +196,11 @@ PASSO 1: ANÁLISE INICIAL PROFUNDA
 - Leia o contexto COMPLETO com máxima atenção
 - Identifique TODOS os dados fornecidos (explícitos e implícitos)
 - Identifique o que está sendo pedido (pode haver múltiplas etapas)
-- Identifique o tipo de problema matemático
+- Identifique o tipo de problema
 - Anote unidades de medida e relações entre dados
 
 PASSO 2: PLANEJAMENTO ESTRATÉGICO
-- Determine qual(is) conceito(s) matemático(s) aplicar
+- Determine qual(is) conceito(s) aplicar
 - Identifique se há múltiplas etapas na resolução
 - Planeje TODOS os passos antes de começar
 - Identifique fórmulas necessárias
@@ -181,7 +210,7 @@ PASSO 2: PLANEJAMENTO ESTRATÉGICO
 PASSO 3: RESOLUÇÃO PASSO A PASSO DETALHADA
 - Resolva o problema passo a passo
 - Mostre TODOS os cálculos intermediários
-- Verifique cada operação matemática
+- Verifique cada operação
 - Mantenha precisão numérica (cuidado com arredondamentos)
 - Se usar aproximações, anote claramente
 - Se houver múltiplas etapas, valide cada uma antes de prosseguir
@@ -197,12 +226,7 @@ PASSO 5: ANÁLISE DETALHADA DE CADA ALTERNATIVA
 Para CADA alternativa (A, B, C, D, E):
 - Calcule o valor numérico (se aplicável)
 - Compare com sua resposta calculada
-- Identifique se há erros comuns que levariam a essa alternativa:
-  * Erros de cálculo
-  * Erros de interpretação
-  * Erros de conversão de unidades
-  * Erros de aplicação de fórmulas
-  * Erros de sinal ou operação
+- Identifique se há erros comuns que levariam a essa alternativa
 - Elimine alternativas claramente incorretas
 - Justifique por que cada alternativa está correta ou incorreta
 
@@ -241,7 +265,7 @@ Antes de responder, confirme:
    - Cuidado com interpretações literais vs. matemáticas
 
 3. PROBLEMAS CONTEXTUALIZADOS:
-   - Relacione o problema matemático com o contexto real
+   - Relacione o problema com o contexto real
    - Verifique se sua resposta faz sentido prático
    - Cuidado com interpretações literais vs. matemáticas
 
@@ -319,4 +343,3 @@ if __name__ == "__main__":
         print(f"  Tamanho do prompt: {len(prompt)} caracteres")
         print(f"  Primeiras 100 caracteres: {prompt[:100]}...")
         print()
-

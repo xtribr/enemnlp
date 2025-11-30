@@ -1,0 +1,1802 @@
+{
+  "46": {
+    "TRI": 305.1,
+    "TRI_min": 305.1,
+    "TRI_max": 305.1,
+    "TRI_mediana": 305.1,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 1
+  },
+  "47": {
+    "TRI": 316.53,
+    "TRI_min": 305.1,
+    "TRI_max": 352.5,
+    "TRI_mediana": 308.0,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 2
+  },
+  "48": {
+    "TRI": 326.81,
+    "TRI_min": 305.1,
+    "TRI_max": 382.5,
+    "TRI_mediana": 323.0,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 3
+  },
+  "49": {
+    "TRI": 334.59,
+    "TRI_min": 305.2,
+    "TRI_max": 409.1,
+    "TRI_mediana": 329.4,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 4
+  },
+  "50": {
+    "TRI": 343.58,
+    "TRI_min": 305.6,
+    "TRI_max": 430.7,
+    "TRI_mediana": 340.1,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 5
+  },
+  "51": {
+    "TRI": 354.61,
+    "TRI_min": 306.0,
+    "TRI_max": 444.9,
+    "TRI_mediana": 352.1,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 6
+  },
+  "52": {
+    "TRI": 366.35,
+    "TRI_min": 306.4,
+    "TRI_max": 453.6,
+    "TRI_mediana": 365.2,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 7
+  },
+  "53": {
+    "TRI": 380.42,
+    "TRI_min": 306.6,
+    "TRI_max": 466.4,
+    "TRI_mediana": 380.5,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 8
+  },
+  "54": {
+    "TRI": 394.69,
+    "TRI_min": 307.4,
+    "TRI_max": 482.5,
+    "TRI_mediana": 396.1,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 9
+  },
+  "55": {
+    "TRI": 410.27,
+    "TRI_min": 308.7,
+    "TRI_max": 491.5,
+    "TRI_mediana": 413.8,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 10
+  },
+  "56": {
+    "TRI": 425.99,
+    "TRI_min": 310.2,
+    "TRI_max": 504.0,
+    "TRI_mediana": 431.0,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 11
+  },
+  "57": {
+    "TRI": 441.94,
+    "TRI_min": 310.1,
+    "TRI_max": 513.7,
+    "TRI_mediana": 447.6,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 12
+  },
+  "58": {
+    "TRI": 457.18,
+    "TRI_min": 318.5,
+    "TRI_max": 525.2,
+    "TRI_mediana": 462.8,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 13
+  },
+  "59": {
+    "TRI": 471.74,
+    "TRI_min": 318.1,
+    "TRI_max": 534.0,
+    "TRI_mediana": 476.6,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 14
+  },
+  "60": {
+    "TRI": 485.36,
+    "TRI_min": 328.3,
+    "TRI_max": 543.8,
+    "TRI_mediana": 489.1,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 15
+  },
+  "61": {
+    "TRI": 498.41,
+    "TRI_min": 346.3,
+    "TRI_max": 554.8,
+    "TRI_mediana": 501.2,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 16
+  },
+  "62": {
+    "TRI": 510.67,
+    "TRI_min": 342.1,
+    "TRI_max": 562.2,
+    "TRI_mediana": 512.8,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 17
+  },
+  "63": {
+    "TRI": 522.24,
+    "TRI_min": 366.1,
+    "TRI_max": 570.3,
+    "TRI_mediana": 523.9,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 18
+  },
+  "64": {
+    "TRI": 533.02,
+    "TRI_min": 386.5,
+    "TRI_max": 581.9,
+    "TRI_mediana": 534.5,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 19
+  },
+  "65": {
+    "TRI": 543.34,
+    "TRI_min": 397.8,
+    "TRI_max": 590.0,
+    "TRI_mediana": 544.6,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 20
+  },
+  "66": {
+    "TRI": 553.18,
+    "TRI_min": 434.1,
+    "TRI_max": 598.0,
+    "TRI_mediana": 554.3,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 21
+  },
+  "67": {
+    "TRI": 562.54,
+    "TRI_min": 463.4,
+    "TRI_max": 608.2,
+    "TRI_mediana": 563.4,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 22
+  },
+  "68": {
+    "TRI": 571.39,
+    "TRI_min": 486.5,
+    "TRI_max": 615.9,
+    "TRI_mediana": 572.1,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 23
+  },
+  "69": {
+    "TRI": 580.08,
+    "TRI_min": 500.7,
+    "TRI_max": 625.9,
+    "TRI_mediana": 580.6,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 24
+  },
+  "70": {
+    "TRI": 588.51,
+    "TRI_min": 526.5,
+    "TRI_max": 632.4,
+    "TRI_mediana": 588.9,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 25
+  },
+  "71": {
+    "TRI": 596.65,
+    "TRI_min": 542.1,
+    "TRI_max": 640.2,
+    "TRI_mediana": 596.9,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 26
+  },
+  "72": {
+    "TRI": 605.01,
+    "TRI_min": 547.9,
+    "TRI_max": 644.9,
+    "TRI_mediana": 605.2,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 27
+  },
+  "73": {
+    "TRI": 613.09,
+    "TRI_min": 562.8,
+    "TRI_max": 651.6,
+    "TRI_mediana": 613.2,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 28
+  },
+  "74": {
+    "TRI": 621.26,
+    "TRI_min": 572.3,
+    "TRI_max": 660.6,
+    "TRI_mediana": 621.3,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 29
+  },
+  "75": {
+    "TRI": 629.53,
+    "TRI_min": 578.0,
+    "TRI_max": 666.5,
+    "TRI_mediana": 629.6,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 30
+  },
+  "76": {
+    "TRI": 637.83,
+    "TRI_min": 583.7,
+    "TRI_max": 675.0,
+    "TRI_mediana": 638.1,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 31
+  },
+  "77": {
+    "TRI": 646.43,
+    "TRI_min": 595.9,
+    "TRI_max": 683.3,
+    "TRI_mediana": 646.7,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 32
+  },
+  "78": {
+    "TRI": 655.07,
+    "TRI_min": 605.5,
+    "TRI_max": 694.2,
+    "TRI_mediana": 655.4,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 33
+  },
+  "79": {
+    "TRI": 664.13,
+    "TRI_min": 616.6,
+    "TRI_max": 703.2,
+    "TRI_mediana": 664.5,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 34
+  },
+  "80": {
+    "TRI": 673.41,
+    "TRI_min": 623.4,
+    "TRI_max": 713.0,
+    "TRI_mediana": 674.0,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 35
+  },
+  "81": {
+    "TRI": 683.04,
+    "TRI_min": 631.9,
+    "TRI_max": 722.9,
+    "TRI_mediana": 683.5,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 36
+  },
+  "82": {
+    "TRI": 693.29,
+    "TRI_min": 639.3,
+    "TRI_max": 737.7,
+    "TRI_mediana": 693.6,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 37
+  },
+  "83": {
+    "TRI": 703.93,
+    "TRI_min": 653.3,
+    "TRI_max": 750.4,
+    "TRI_mediana": 704.1,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 38
+  },
+  "84": {
+    "TRI": 715.2,
+    "TRI_min": 664.0,
+    "TRI_max": 764.1,
+    "TRI_mediana": 715.3,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 39
+  },
+  "85": {
+    "TRI": 727.63,
+    "TRI_min": 668.8,
+    "TRI_max": 781.0,
+    "TRI_mediana": 727.55,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 40
+  },
+  "86": {
+    "TRI": 741.12,
+    "TRI_min": 687.4,
+    "TRI_max": 793.4,
+    "TRI_mediana": 740.3,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 41
+  },
+  "87": {
+    "TRI": 756.83,
+    "TRI_min": 687.8,
+    "TRI_max": 807.0,
+    "TRI_mediana": 756.15,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 42
+  },
+  "88": {
+    "TRI": 776.38,
+    "TRI_min": 724.3,
+    "TRI_max": 817.7,
+    "TRI_mediana": 778.45,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 43
+  },
+  "89": {
+    "TRI": 795.54,
+    "TRI_min": 755.4,
+    "TRI_max": 829.1,
+    "TRI_mediana": 794.3,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 44
+  },
+  "90": {
+    "TRI": 811.78,
+    "TRI_min": 769.4,
+    "TRI_max": 839.2,
+    "TRI_mediana": 810.9,
+    "area": "human-sciences",
+    "area_codigo": "CH",
+    "ano": 2022,
+    "questao_na_area": 45
+  },
+  "91": {
+    "TRI": 360.6,
+    "TRI_min": 360.6,
+    "TRI_max": 360.6,
+    "TRI_mediana": 360.6,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 1
+  },
+  "92": {
+    "TRI": 368.42,
+    "TRI_min": 360.6,
+    "TRI_max": 399.8,
+    "TRI_mediana": 365.0,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 2
+  },
+  "93": {
+    "TRI": 373.68,
+    "TRI_min": 360.6,
+    "TRI_max": 417.2,
+    "TRI_mediana": 373.4,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 3
+  },
+  "94": {
+    "TRI": 380.81,
+    "TRI_min": 360.6,
+    "TRI_max": 438.9,
+    "TRI_mediana": 378.2,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 4
+  },
+  "95": {
+    "TRI": 388.73,
+    "TRI_min": 360.6,
+    "TRI_max": 459.3,
+    "TRI_mediana": 386.9,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 5
+  },
+  "96": {
+    "TRI": 397.87,
+    "TRI_min": 360.7,
+    "TRI_max": 481.7,
+    "TRI_mediana": 395.4,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 6
+  },
+  "97": {
+    "TRI": 407.54,
+    "TRI_min": 361.0,
+    "TRI_max": 493.2,
+    "TRI_mediana": 405.4,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 7
+  },
+  "98": {
+    "TRI": 418.23,
+    "TRI_min": 361.5,
+    "TRI_max": 523.5,
+    "TRI_mediana": 416.2,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 8
+  },
+  "99": {
+    "TRI": 430.08,
+    "TRI_min": 361.8,
+    "TRI_max": 545.5,
+    "TRI_mediana": 428.3,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 9
+  },
+  "100": {
+    "TRI": 443.25,
+    "TRI_min": 362.6,
+    "TRI_max": 556.6,
+    "TRI_mediana": 441.9,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 10
+  },
+  "101": {
+    "TRI": 457.51,
+    "TRI_min": 363.3,
+    "TRI_max": 582.1,
+    "TRI_mediana": 456.4,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 11
+  },
+  "102": {
+    "TRI": 473.17,
+    "TRI_min": 367.2,
+    "TRI_max": 591.2,
+    "TRI_mediana": 472.7,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 12
+  },
+  "103": {
+    "TRI": 489.9,
+    "TRI_min": 369.0,
+    "TRI_max": 598.4,
+    "TRI_mediana": 490.05,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 13
+  },
+  "104": {
+    "TRI": 507.16,
+    "TRI_min": 373.4,
+    "TRI_max": 611.5,
+    "TRI_mediana": 508.6,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 14
+  },
+  "105": {
+    "TRI": 525.03,
+    "TRI_min": 372.3,
+    "TRI_max": 620.6,
+    "TRI_mediana": 527.8,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 15
+  },
+  "106": {
+    "TRI": 542.52,
+    "TRI_min": 386.2,
+    "TRI_max": 629.5,
+    "TRI_mediana": 546.8,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 16
+  },
+  "107": {
+    "TRI": 559.52,
+    "TRI_min": 399.4,
+    "TRI_max": 641.1,
+    "TRI_mediana": 564.6,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 17
+  },
+  "108": {
+    "TRI": 575.63,
+    "TRI_min": 416.0,
+    "TRI_max": 651.3,
+    "TRI_mediana": 580.8,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 18
+  },
+  "109": {
+    "TRI": 590.46,
+    "TRI_min": 422.8,
+    "TRI_max": 657.5,
+    "TRI_mediana": 595.4,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 19
+  },
+  "110": {
+    "TRI": 604.45,
+    "TRI_min": 436.2,
+    "TRI_max": 663.9,
+    "TRI_mediana": 608.5,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 20
+  },
+  "111": {
+    "TRI": 617.22,
+    "TRI_min": 471.1,
+    "TRI_max": 673.8,
+    "TRI_mediana": 620.0,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 21
+  },
+  "112": {
+    "TRI": 628.79,
+    "TRI_min": 506.5,
+    "TRI_max": 681.1,
+    "TRI_mediana": 630.6,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 22
+  },
+  "113": {
+    "TRI": 639.63,
+    "TRI_min": 536.7,
+    "TRI_max": 689.8,
+    "TRI_mediana": 640.9,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 23
+  },
+  "114": {
+    "TRI": 649.81,
+    "TRI_min": 562.7,
+    "TRI_max": 693.3,
+    "TRI_mediana": 650.6,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 24
+  },
+  "115": {
+    "TRI": 659.13,
+    "TRI_min": 586.8,
+    "TRI_max": 699.6,
+    "TRI_mediana": 660.0,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 25
+  },
+  "116": {
+    "TRI": 667.89,
+    "TRI_min": 599.3,
+    "TRI_max": 709.3,
+    "TRI_mediana": 668.8,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 26
+  },
+  "117": {
+    "TRI": 676.78,
+    "TRI_min": 604.3,
+    "TRI_max": 719.3,
+    "TRI_mediana": 677.7,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 27
+  },
+  "118": {
+    "TRI": 684.6,
+    "TRI_min": 624.1,
+    "TRI_max": 727.1,
+    "TRI_mediana": 685.6,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 28
+  },
+  "119": {
+    "TRI": 692.98,
+    "TRI_min": 613.6,
+    "TRI_max": 728.3,
+    "TRI_mediana": 693.9,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 29
+  },
+  "120": {
+    "TRI": 700.64,
+    "TRI_min": 646.1,
+    "TRI_max": 737.3,
+    "TRI_mediana": 701.6,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 30
+  },
+  "121": {
+    "TRI": 708.93,
+    "TRI_min": 644.2,
+    "TRI_max": 746.2,
+    "TRI_mediana": 709.5,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 31
+  },
+  "122": {
+    "TRI": 716.9,
+    "TRI_min": 664.9,
+    "TRI_max": 753.1,
+    "TRI_mediana": 717.5,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 32
+  },
+  "123": {
+    "TRI": 725.14,
+    "TRI_min": 672.8,
+    "TRI_max": 758.7,
+    "TRI_mediana": 725.6,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 33
+  },
+  "124": {
+    "TRI": 733.41,
+    "TRI_min": 686.7,
+    "TRI_max": 771.2,
+    "TRI_mediana": 733.7,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 34
+  },
+  "125": {
+    "TRI": 742.06,
+    "TRI_min": 691.4,
+    "TRI_max": 777.9,
+    "TRI_mediana": 742.7,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 35
+  },
+  "126": {
+    "TRI": 750.45,
+    "TRI_min": 699.5,
+    "TRI_max": 795.7,
+    "TRI_mediana": 750.3,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 36
+  },
+  "127": {
+    "TRI": 760.54,
+    "TRI_min": 715.2,
+    "TRI_max": 803.3,
+    "TRI_mediana": 760.1,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 37
+  },
+  "128": {
+    "TRI": 769.19,
+    "TRI_min": 724.1,
+    "TRI_max": 825.7,
+    "TRI_mediana": 769.7,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 38
+  },
+  "129": {
+    "TRI": 779.04,
+    "TRI_min": 728.3,
+    "TRI_max": 825.7,
+    "TRI_mediana": 778.95,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 39
+  },
+  "130": {
+    "TRI": 790.84,
+    "TRI_min": 742.8,
+    "TRI_max": 857.4,
+    "TRI_mediana": 788.75,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 40
+  },
+  "131": {
+    "TRI": 802.33,
+    "TRI_min": 751.3,
+    "TRI_max": 844.9,
+    "TRI_mediana": 802.95,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 41
+  },
+  "132": {
+    "TRI": 816.51,
+    "TRI_min": 772.3,
+    "TRI_max": 868.7,
+    "TRI_mediana": 816.8,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 42
+  },
+  "133": {
+    "TRI": 825.88,
+    "TRI_min": 777.7,
+    "TRI_max": 868.7,
+    "TRI_mediana": 823.65,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 43
+  },
+  "134": {
+    "TRI": 857.28,
+    "TRI_min": 838.7,
+    "TRI_max": 875.3,
+    "TRI_mediana": 859.2,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 44
+  },
+  "135": {
+    "TRI": 868.7,
+    "TRI_min": 868.7,
+    "TRI_max": 868.7,
+    "TRI_mediana": 868.7,
+    "area": "natural-sciences",
+    "area_codigo": "CN",
+    "ano": 2022,
+    "questao_na_area": 45
+  },
+  "136": {
+    "TRI": 336.8,
+    "TRI_min": 336.8,
+    "TRI_max": 336.8,
+    "TRI_mediana": 336.8,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 1
+  },
+  "1": {
+    "TRI": 275.44,
+    "TRI_min": 270.6,
+    "TRI_max": 280.7,
+    "TRI_mediana": 270.6,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 1
+  },
+  "2": {
+    "TRI": 283.88,
+    "TRI_min": 270.6,
+    "TRI_max": 320.9,
+    "TRI_mediana": 281.2,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 2
+  },
+  "3": {
+    "TRI": 293.38,
+    "TRI_min": 270.6,
+    "TRI_max": 349.3,
+    "TRI_mediana": 290.55,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 3
+  },
+  "4": {
+    "TRI": 304.95,
+    "TRI_min": 270.9,
+    "TRI_max": 365.8,
+    "TRI_mediana": 303.6,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 4
+  },
+  "5": {
+    "TRI": 316.43,
+    "TRI_min": 271.1,
+    "TRI_max": 391.8,
+    "TRI_mediana": 316.1,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 5
+  },
+  "6": {
+    "TRI": 328.85,
+    "TRI_min": 271.3,
+    "TRI_max": 404.2,
+    "TRI_mediana": 328.8,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 6
+  },
+  "7": {
+    "TRI": 341.16,
+    "TRI_min": 273.3,
+    "TRI_max": 421.0,
+    "TRI_mediana": 341.5,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 7
+  },
+  "8": {
+    "TRI": 354.26,
+    "TRI_min": 273.8,
+    "TRI_max": 434.9,
+    "TRI_mediana": 354.9,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 8
+  },
+  "9": {
+    "TRI": 367.51,
+    "TRI_min": 273.1,
+    "TRI_max": 450.2,
+    "TRI_mediana": 368.9,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 9
+  },
+  "10": {
+    "TRI": 381.89,
+    "TRI_min": 275.5,
+    "TRI_max": 459.2,
+    "TRI_mediana": 383.9,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 10
+  },
+  "11": {
+    "TRI": 396.51,
+    "TRI_min": 280.0,
+    "TRI_max": 471.4,
+    "TRI_mediana": 399.5,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 11
+  },
+  "12": {
+    "TRI": 411.52,
+    "TRI_min": 284.5,
+    "TRI_max": 481.9,
+    "TRI_mediana": 415.0,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 12
+  },
+  "13": {
+    "TRI": 426.46,
+    "TRI_min": 282.6,
+    "TRI_max": 492.5,
+    "TRI_mediana": 430.3,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 13
+  },
+  "14": {
+    "TRI": 440.92,
+    "TRI_min": 302.3,
+    "TRI_max": 503.5,
+    "TRI_mediana": 444.6,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 14
+  },
+  "15": {
+    "TRI": 454.85,
+    "TRI_min": 308.9,
+    "TRI_max": 513.4,
+    "TRI_mediana": 458.3,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 15
+  },
+  "16": {
+    "TRI": 467.93,
+    "TRI_min": 326.0,
+    "TRI_max": 526.8,
+    "TRI_mediana": 470.7,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 16
+  },
+  "17": {
+    "TRI": 480.62,
+    "TRI_min": 316.3,
+    "TRI_max": 533.5,
+    "TRI_mediana": 482.9,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 17
+  },
+  "18": {
+    "TRI": 492.29,
+    "TRI_min": 351.9,
+    "TRI_max": 542.3,
+    "TRI_mediana": 494.2,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 18
+  },
+  "19": {
+    "TRI": 503.23,
+    "TRI_min": 350.6,
+    "TRI_max": 552.5,
+    "TRI_mediana": 504.6,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 19
+  },
+  "20": {
+    "TRI": 513.73,
+    "TRI_min": 396.0,
+    "TRI_max": 559.7,
+    "TRI_mediana": 514.8,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 20
+  },
+  "21": {
+    "TRI": 523.6,
+    "TRI_min": 405.2,
+    "TRI_max": 568.6,
+    "TRI_mediana": 524.4,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 21
+  },
+  "22": {
+    "TRI": 533.21,
+    "TRI_min": 439.0,
+    "TRI_max": 578.7,
+    "TRI_mediana": 533.9,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 22
+  },
+  "23": {
+    "TRI": 542.42,
+    "TRI_min": 450.8,
+    "TRI_max": 582.6,
+    "TRI_mediana": 543.1,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 23
+  },
+  "24": {
+    "TRI": 551.4,
+    "TRI_min": 472.6,
+    "TRI_max": 593.0,
+    "TRI_mediana": 552.0,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 24
+  },
+  "25": {
+    "TRI": 560.29,
+    "TRI_min": 490.9,
+    "TRI_max": 599.3,
+    "TRI_mediana": 561.1,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 25
+  },
+  "26": {
+    "TRI": 568.94,
+    "TRI_min": 501.1,
+    "TRI_max": 614.3,
+    "TRI_mediana": 569.7,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 26
+  },
+  "27": {
+    "TRI": 577.64,
+    "TRI_min": 515.6,
+    "TRI_max": 620.3,
+    "TRI_mediana": 578.4,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 27
+  },
+  "28": {
+    "TRI": 586.29,
+    "TRI_min": 524.7,
+    "TRI_max": 632.1,
+    "TRI_mediana": 586.9,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 28
+  },
+  "29": {
+    "TRI": 594.93,
+    "TRI_min": 537.1,
+    "TRI_max": 642.1,
+    "TRI_mediana": 595.5,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 29
+  },
+  "30": {
+    "TRI": 603.78,
+    "TRI_min": 543.0,
+    "TRI_max": 646.2,
+    "TRI_mediana": 604.1,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 30
+  },
+  "31": {
+    "TRI": 612.73,
+    "TRI_min": 553.0,
+    "TRI_max": 654.7,
+    "TRI_mediana": 612.9,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 31
+  },
+  "32": {
+    "TRI": 621.77,
+    "TRI_min": 560.6,
+    "TRI_max": 666.1,
+    "TRI_mediana": 621.7,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 32
+  },
+  "33": {
+    "TRI": 631.12,
+    "TRI_min": 574.8,
+    "TRI_max": 677.4,
+    "TRI_mediana": 631.0,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 33
+  },
+  "34": {
+    "TRI": 640.75,
+    "TRI_min": 578.9,
+    "TRI_max": 688.5,
+    "TRI_mediana": 640.7,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 34
+  },
+  "35": {
+    "TRI": 650.74,
+    "TRI_min": 597.0,
+    "TRI_max": 698.0,
+    "TRI_mediana": 650.8,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 35
+  },
+  "36": {
+    "TRI": 661.0,
+    "TRI_min": 602.4,
+    "TRI_max": 708.4,
+    "TRI_mediana": 661.2,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 36
+  },
+  "37": {
+    "TRI": 672.13,
+    "TRI_min": 624.8,
+    "TRI_max": 721.8,
+    "TRI_mediana": 672.6,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 37
+  },
+  "38": {
+    "TRI": 683.41,
+    "TRI_min": 631.1,
+    "TRI_max": 730.3,
+    "TRI_mediana": 683.6,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 38
+  },
+  "39": {
+    "TRI": 695.34,
+    "TRI_min": 653.3,
+    "TRI_max": 742.9,
+    "TRI_mediana": 695.4,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 39
+  },
+  "40": {
+    "TRI": 708.15,
+    "TRI_min": 664.7,
+    "TRI_max": 754.5,
+    "TRI_mediana": 707.7,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 40
+  },
+  "41": {
+    "TRI": 721.49,
+    "TRI_min": 676.1,
+    "TRI_max": 761.2,
+    "TRI_mediana": 720.8,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 41
+  },
+  "42": {
+    "TRI": 738.98,
+    "TRI_min": 707.7,
+    "TRI_max": 778.5,
+    "TRI_mediana": 736.8,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 42
+  },
+  "43": {
+    "TRI": 754.48,
+    "TRI_min": 731.3,
+    "TRI_max": 789.2,
+    "TRI_mediana": 751.8,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 43
+  },
+  "44": {
+    "TRI": 768.11,
+    "TRI_min": 747.9,
+    "TRI_max": 797.0,
+    "TRI_mediana": 768.8,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 44
+  },
+  "45": {
+    "TRI": 793.1,
+    "TRI_min": 785.2,
+    "TRI_max": 801.0,
+    "TRI_mediana": 793.1,
+    "area": "languages",
+    "area_codigo": "LC",
+    "ano": 2022,
+    "questao_na_area": 45
+  },
+  "137": {
+    "TRI": 345.06,
+    "TRI_min": 336.8,
+    "TRI_max": 384.4,
+    "TRI_mediana": 340.3,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 2
+  },
+  "138": {
+    "TRI": 354.2,
+    "TRI_min": 336.8,
+    "TRI_max": 411.4,
+    "TRI_mediana": 351.0,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 3
+  },
+  "139": {
+    "TRI": 364.94,
+    "TRI_min": 336.9,
+    "TRI_max": 441.6,
+    "TRI_mediana": 359.6,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 4
+  },
+  "140": {
+    "TRI": 375.48,
+    "TRI_min": 336.9,
+    "TRI_max": 481.5,
+    "TRI_mediana": 369.2,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 5
+  },
+  "141": {
+    "TRI": 387.83,
+    "TRI_min": 337.0,
+    "TRI_max": 526.3,
+    "TRI_mediana": 382.0,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 6
+  },
+  "142": {
+    "TRI": 401.41,
+    "TRI_min": 337.1,
+    "TRI_max": 557.9,
+    "TRI_mediana": 396.2,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 7
+  },
+  "143": {
+    "TRI": 417.05,
+    "TRI_min": 337.1,
+    "TRI_max": 582.2,
+    "TRI_mediana": 412.2,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 8
+  },
+  "144": {
+    "TRI": 435.03,
+    "TRI_min": 337.9,
+    "TRI_max": 602.7,
+    "TRI_mediana": 430.9,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 9
+  },
+  "145": {
+    "TRI": 454.7,
+    "TRI_min": 337.9,
+    "TRI_max": 623.3,
+    "TRI_mediana": 451.2,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 10
+  },
+  "146": {
+    "TRI": 476.81,
+    "TRI_min": 339.1,
+    "TRI_max": 640.2,
+    "TRI_mediana": 475.0,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 11
+  },
+  "147": {
+    "TRI": 500.08,
+    "TRI_min": 338.9,
+    "TRI_max": 659.1,
+    "TRI_mediana": 500.7,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 12
+  },
+  "148": {
+    "TRI": 524.62,
+    "TRI_min": 346.5,
+    "TRI_max": 670.0,
+    "TRI_mediana": 528.7,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 13
+  },
+  "149": {
+    "TRI": 549.74,
+    "TRI_min": 352.3,
+    "TRI_max": 681.8,
+    "TRI_mediana": 557.5,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 14
+  },
+  "150": {
+    "TRI": 574.6,
+    "TRI_min": 358.5,
+    "TRI_max": 695.3,
+    "TRI_mediana": 584.9,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 15
+  },
+  "151": {
+    "TRI": 598.51,
+    "TRI_min": 361.6,
+    "TRI_max": 707.8,
+    "TRI_mediana": 609.3,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 16
+  },
+  "152": {
+    "TRI": 621.28,
+    "TRI_min": 378.5,
+    "TRI_max": 716.8,
+    "TRI_mediana": 631.1,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 17
+  },
+  "153": {
+    "TRI": 642.7,
+    "TRI_min": 389.0,
+    "TRI_max": 729.0,
+    "TRI_mediana": 650.8,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 18
+  },
+  "154": {
+    "TRI": 662.41,
+    "TRI_min": 402.8,
+    "TRI_max": 744.1,
+    "TRI_mediana": 669.3,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 19
+  },
+  "155": {
+    "TRI": 680.5,
+    "TRI_min": 437.2,
+    "TRI_max": 751.2,
+    "TRI_mediana": 685.8,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 20
+  },
+  "156": {
+    "TRI": 697.15,
+    "TRI_min": 428.6,
+    "TRI_max": 767.5,
+    "TRI_mediana": 701.1,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 21
+  },
+  "157": {
+    "TRI": 712.54,
+    "TRI_min": 466.4,
+    "TRI_max": 782.4,
+    "TRI_mediana": 715.3,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 22
+  },
+  "158": {
+    "TRI": 727.05,
+    "TRI_min": 508.3,
+    "TRI_max": 798.1,
+    "TRI_mediana": 729.0,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 23
+  },
+  "159": {
+    "TRI": 740.99,
+    "TRI_min": 482.8,
+    "TRI_max": 807.5,
+    "TRI_mediana": 742.3,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 24
+  },
+  "160": {
+    "TRI": 754.03,
+    "TRI_min": 508.3,
+    "TRI_max": 820.0,
+    "TRI_mediana": 755.0,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 25
+  },
+  "161": {
+    "TRI": 767.03,
+    "TRI_min": 551.1,
+    "TRI_max": 834.3,
+    "TRI_mediana": 767.7,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 26
+  },
+  "162": {
+    "TRI": 779.51,
+    "TRI_min": 618.7,
+    "TRI_max": 841.4,
+    "TRI_mediana": 780.0,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 27
+  },
+  "163": {
+    "TRI": 791.64,
+    "TRI_min": 679.4,
+    "TRI_max": 853.3,
+    "TRI_mediana": 792.1,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 28
+  },
+  "164": {
+    "TRI": 803.57,
+    "TRI_min": 722.7,
+    "TRI_max": 859.7,
+    "TRI_mediana": 803.9,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 29
+  },
+  "165": {
+    "TRI": 815.11,
+    "TRI_min": 735.3,
+    "TRI_max": 870.1,
+    "TRI_mediana": 815.6,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 30
+  },
+  "166": {
+    "TRI": 826.17,
+    "TRI_min": 759.1,
+    "TRI_max": 878.5,
+    "TRI_mediana": 826.7,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 31
+  },
+  "167": {
+    "TRI": 837.13,
+    "TRI_min": 773.0,
+    "TRI_max": 885.7,
+    "TRI_mediana": 837.9,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 32
+  },
+  "168": {
+    "TRI": 847.81,
+    "TRI_min": 770.8,
+    "TRI_max": 898.3,
+    "TRI_mediana": 848.4,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 33
+  },
+  "169": {
+    "TRI": 859.53,
+    "TRI_min": 799.7,
+    "TRI_max": 907.5,
+    "TRI_mediana": 860.3,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 34
+  },
+  "170": {
+    "TRI": 870.98,
+    "TRI_min": 806.8,
+    "TRI_max": 925.3,
+    "TRI_mediana": 871.7,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 35
+  },
+  "171": {
+    "TRI": 882.63,
+    "TRI_min": 818.8,
+    "TRI_max": 931.5,
+    "TRI_mediana": 883.7,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 36
+  },
+  "172": {
+    "TRI": 895.25,
+    "TRI_min": 837.7,
+    "TRI_max": 944.4,
+    "TRI_mediana": 896.15,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 37
+  },
+  "173": {
+    "TRI": 908.92,
+    "TRI_min": 848.4,
+    "TRI_max": 955.8,
+    "TRI_mediana": 909.65,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 38
+  },
+  "174": {
+    "TRI": 921.63,
+    "TRI_min": 848.9,
+    "TRI_max": 967.4,
+    "TRI_mediana": 922.65,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 39
+  },
+  "175": {
+    "TRI": 936.23,
+    "TRI_min": 880.6,
+    "TRI_max": 973.3,
+    "TRI_mediana": 938.2,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 40
+  },
+  "176": {
+    "TRI": 947.92,
+    "TRI_min": 888.5,
+    "TRI_max": 978.0,
+    "TRI_mediana": 949.9,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 41
+  },
+  "177": {
+    "TRI": 960.23,
+    "TRI_min": 896.3,
+    "TRI_max": 981.3,
+    "TRI_mediana": 964.3,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 42
+  },
+  "178": {
+    "TRI": 968.74,
+    "TRI_min": 936.8,
+    "TRI_max": 983.9,
+    "TRI_mediana": 970.0,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 43
+  },
+  "179": {
+    "TRI": 978.33,
+    "TRI_min": 958.1,
+    "TRI_max": 985.7,
+    "TRI_mediana": 981.7,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 44
+  },
+  "180": {
+    "TRI": 985.7,
+    "TRI_min": 985.7,
+    "TRI_max": 985.7,
+    "TRI_mediana": 985.7,
+    "area": "mathematics",
+    "area_codigo": "MT",
+    "ano": 2022,
+    "questao_na_area": 45
+  }
+}

@@ -1,5 +1,54 @@
-env
+# Python
 *.pyc
-# data/
-lm_cache
-.idea
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data (grandes arquivos - manter estrutura mas não os dados grandes)
+data/cache/
+data/temp/
+data/embeddings/*.npy
+data/embeddings/*.pkl
+data/processed/*.jsonl
+data/treino/
+*.npy
+*.pkl
+
+# Logs
+logs/
+*.log
+
+# Results e reports temporários
+results/
+reports/avaliacoes/
+reports/visualizacoes/*.png
+reports/visualizacoes/*.json
+
+# Cache
+lm_cache/
+.cache/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Workspace
+*.code-workspace

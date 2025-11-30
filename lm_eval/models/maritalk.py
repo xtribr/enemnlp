@@ -35,18 +35,23 @@ def get_result(response, ctxlen):
     return continuation_logprobs, is_greedy
 
 
-def oa_completion(**kwargs):
+def oa_completion(client=None, **kwargs):
     """Query OpenAI API for completion.
 
     Retry with back-off until they respond
+    Compatível com openai v0.x e v1.x+
     """
     backoff_time = 3
     while True:
         try:
-            return openai.ChatCompletion.create(**kwargs)
-        except openai.error.OpenAIError:
+            if client is not None:
+                # API v1.x+ - usa client
+                return client.chat.completions.create(**kwargs)
+            else:
+                # API v0.x - usa módulo direto
+                return openai.ChatCompletion.create(**kwargs)
+        except (openai.error.OpenAIError, openai.OpenAIError, openai.APIError) as e:
             import traceback
-
             traceback.print_exc()
             time.sleep(backoff_time)
             backoff_time *= 1.5
@@ -59,17 +64,43 @@ class MARITALKLM(BaseLM):
         """
 
         :param engine: str
-            OpenAI API engine (e.g. davinci)
+            OpenAI API engine (e.g. sabia-3)
         :param truncate: bool
             Truncate input if too long (if False and input is too long, throw error)
         """
         super().__init__()
 
         self.engine = engine
-
-        # Read from environment variable OPENAI_API_SECRET_KEY
-        openai.api_base = "https://chat.maritaca.ai/api"
-        openai.api_key = os.environ["MARITALK_API_SECRET_KEY"]
+        
+        # Detecta versão do openai e configura apropriadamente
+        openai_version = openai.__version__
+        major_version = int(openai_version.split('.')[0])
+        
+        # Read from environment variable (tenta múltiplas opções)
+        api_key = (
+            os.environ.get("MARITALK_API_SECRET_KEY") or
+            os.environ.get("CURSORMINIMAC") or
+            os.environ.get("MARITACA_API_KEY")
+        )
+        if not api_key:
+            raise ValueError(
+                "Chave API da Maritaca não encontrada! "
+                "Configure uma das variáveis: MARITALK_API_SECRET_KEY, CURSORMINIMAC ou MARITACA_API_KEY"
+            )
+        
+        if major_version >= 1:
+            # API v1.x+ - usa client
+            self.client = openai.OpenAI(
+                api_key=api_key,
+                base_url="https://chat.maritaca.ai/api"
+            )
+            self.use_client = True
+        else:
+            # API v0.x - usa módulo direto
+            openai.api_base = "https://chat.maritaca.ai/api"
+            openai.api_key = api_key
+            self.client = None
+            self.use_client = False
 
     @property
     def eot_token_id(self):
@@ -141,6 +172,7 @@ class MARITALKLM(BaseLM):
                 inps.append(messages)
 
             response = oa_completion(
+                client=self.client if self.use_client else None,
                 model=self.engine,
                 messages=inps[0],
                 max_tokens=self.max_gen_toks, 
@@ -151,8 +183,32 @@ class MARITALKLM(BaseLM):
                 ## help center at help.openai.com if you keep seeing this error.  
             )
 
-            for resp, (context, until_) in zip(response.choices, chunk):
-                s = resp.message['content']
+            # Extrai choices da resposta (compatível com ambas versões)
+            if self.use_client:
+                # API v1.x+
+                choices = response.choices
+            else:
+                # API v0.x
+                if hasattr(response, 'choices'):
+                    choices = response.choices
+                elif isinstance(response, dict) and 'choices' in response:
+                    choices = response['choices']
+                else:
+                    choices = [response]
+            
+            for resp, (context, until_) in zip(choices, chunk):
+                # Extrai conteúdo da mensagem (compatível com ambas versões)
+                if self.use_client:
+                    # API v1.x+
+                    s = resp.message.content
+                else:
+                    # API v0.x
+                    if hasattr(resp, 'message'):
+                        s = resp.message['content'] if isinstance(resp.message, dict) else resp.message.content
+                    elif isinstance(resp, dict):
+                        s = resp.get('message', {}).get('content', str(resp))
+                    else:
+                        s = str(resp)
 
                 for term in until_:
                     s = s.split(term)[0]

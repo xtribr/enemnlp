@@ -1,0 +1,47 @@
+🚀 COMO ABRIR BRAINX NO GOOGLE COLAB
+====================================
+
+📌 MÉTODO MAIS RÁPIDO (Upload Manual):
+
+1. Acesse: https://colab.research.google.com
+2. Clique em: File → Upload notebook
+3. Selecione o arquivo: notebooks/brainx_sistema_completo_colab.ipynb
+4. Aguarde o upload
+5. Habilite GPU: Runtime → Change runtime type → GPU → Save
+6. Execute todas as células na ordem (Shift+Enter)
+
+---
+
+📌 MÉTODO ALTERNATIVO (Clonar no Colab):
+
+Execute esta célula no Colab:
+
+!git clone https://github.com/xtribr/enemnlp.git
+%cd enemnlp
+
+Depois:
+- File → Open notebook
+- Navegue até: enemnlp/notebooks/brainx_sistema_completo_colab.ipynb
+
+---
+
+🔑 CONFIGURAR API KEY:
+
+Quando a célula pedir, cole sua chave:
+107341642936117619902_e1ed52697ebc2587
+
+---
+
+⚙️ CONFIGURAÇÃO:
+
+O notebook já está configurado para:
+- 45 questões por área (180 total)
+- 5 passagens (self-consistency)
+- Todas as melhorias ativas
+
+Tempo estimado: ~2-3 horas com GPU
+
+---
+
+✅ PRONTO! Execute e aguarde os resultados!
+

@@ -1,0 +1,253 @@
+{
+  "validacao": {
+    "valido": false,
+    "total_problemas": 5,
+    "estatisticas": {
+      "total_anos": 16,
+      "total_questoes": 2779,
+      "questoes_por_ano": {
+        "2009": 174,
+        "2010": 184,
+        "2011": 185,
+        "2012": 182,
+        "2013": 180,
+        "2014": 164,
+        "2015": 169,
+        "2016": 161,
+        "2017": 182,
+        "2018": 174,
+        "2019": 165,
+        "2020": 179,
+        "2021": 183,
+        "2022": 179,
+        "2023": 138,
+        "2024": 180
+      },
+      "campos_obrigatorios": [
+        "id",
+        "exam",
+        "question",
+        "alternatives",
+        "label"
+      ],
+      "campos_faltantes": {},
+      "labels_invalidas": 1,
+      "alternativas_incompletas": 4
+    }
+  },
+  "areas": {
+    "por_ano": {
+      "2009": {
+        "languages": 39,
+        "human-sciences": 56,
+        "natural-sciences": 38,
+        "mathematics": 41
+      },
+      "2010": {
+        "languages": 17,
+        "human-sciences": 78,
+        "natural-sciences": 44,
+        "mathematics": 45
+      },
+      "2011": {
+        "languages": 50,
+        "human-sciences": 53,
+        "natural-sciences": 44,
+        "mathematics": 38
+      },
+      "2012": {
+        "languages": 50,
+        "human-sciences": 49,
+        "natural-sciences": 43,
+        "mathematics": 40
+      },
+      "2013": {
+        "languages": 50,
+        "human-sciences": 53,
+        "natural-sciences": 38,
+        "mathematics": 39
+      },
+      "2014": {
+        "languages": 50,
+        "human-sciences": 50,
+        "natural-sciences": 36,
+        "mathematics": 28
+      },
+      "2015": {
+        "languages": 48,
+        "human-sciences": 52,
+        "natural-sciences": 38,
+        "mathematics": 31
+      },
+      "2016": {
+        "languages": 50,
+        "human-sciences": 46,
+        "natural-sciences": 33,
+        "mathematics": 32
+      },
+      "2017": {
+        "languages": 46,
+        "human-sciences": 55,
+        "natural-sciences": 41,
+        "mathematics": 40
+      },
+      "2018": {
+        "languages": 46,
+        "human-sciences": 45,
+        "natural-sciences": 41,
+        "mathematics": 42
+      },
+      "2019": {
+        "languages": 37,
+        "human-sciences": 45,
+        "natural-sciences": 39,
+        "mathematics": 44
+      },
+      "2020": {
+        "languages": 48,
+        "human-sciences": 48,
+        "natural-sciences": 43,
+        "mathematics": 40
+      },
+      "2021": {
+        "languages": 44,
+        "human-sciences": 55,
+        "natural-sciences": 41,
+        "mathematics": 43
+      },
+      "2022": {
+        "desconhecida": 179
+      },
+      "2023": {
+        "languages": 36,
+        "human-sciences": 38,
+        "natural-sciences": 21,
+        "mathematics": 43
+      },
+      "2024": {
+        "desconhecida": 180
+      }
+    },
+    "total": {
+      "languages": 611,
+      "human-sciences": 723,
+      "natural-sciences": 540,
+      "mathematics": 546,
+      "desconhecida": 359
+    }
+  },
+  "complexidade": {
+    "2009": {
+      "tamanho_medio_questao": 157.31034482758622,
+      "tamanho_medio_contexto": 539.6264367816092,
+      "questoes_com_imagens": 63,
+      "percentual_imagens": 36.206896551724135,
+      "total_questoes": 174
+    },
+    "2010": {
+      "tamanho_medio_questao": 158.80978260869566,
+      "tamanho_medio_contexto": 489.9945652173913,
+      "questoes_com_imagens": 66,
+      "percentual_imagens": 35.869565217391305,
+      "total_questoes": 184
+    },
+    "2011": {
+      "tamanho_medio_questao": 166.14054054054054,
+      "tamanho_medio_contexto": 417.25405405405405,
+      "questoes_com_imagens": 71,
+      "percentual_imagens": 38.37837837837838,
+      "total_questoes": 185
+    },
+    "2012": {
+      "tamanho_medio_questao": 142.22527472527472,
+      "tamanho_medio_contexto": 442.9835164835165,
+      "questoes_com_imagens": 65,
+      "percentual_imagens": 35.714285714285715,
+      "total_questoes": 182
+    },
+    "2013": {
+      "tamanho_medio_questao": 125.82222222222222,
+      "tamanho_medio_contexto": 406.8,
+      "questoes_com_imagens": 71,
+      "percentual_imagens": 39.44444444444444,
+      "total_questoes": 180
+    },
+    "2014": {
+      "tamanho_medio_questao": 107.13414634146342,
+      "tamanho_medio_contexto": 454.8292682926829,
+      "questoes_com_imagens": 67,
+      "percentual_imagens": 40.853658536585364,
+      "total_questoes": 164
+    },
+    "2015": {
+      "tamanho_medio_questao": 109.07692307692308,
+      "tamanho_medio_contexto": 450.3076923076923,
+      "questoes_com_imagens": 58,
+      "percentual_imagens": 34.319526627218934,
+      "total_questoes": 169
+    },
+    "2016": {
+      "tamanho_medio_questao": 124.96894409937889,
+      "tamanho_medio_contexto": 489.7142857142857,
+      "questoes_com_imagens": 68,
+      "percentual_imagens": 42.2360248447205,
+      "total_questoes": 161
+    },
+    "2017": {
+      "tamanho_medio_questao": 111.00549450549451,
+      "tamanho_medio_contexto": 571.9285714285714,
+      "questoes_com_imagens": 71,
+      "percentual_imagens": 39.010989010989015,
+      "total_questoes": 182
+    },
+    "2018": {
+      "tamanho_medio_questao": 102.01149425287356,
+      "tamanho_medio_contexto": 561.7298850574713,
+      "questoes_com_imagens": 73,
+      "percentual_imagens": 41.95402298850575,
+      "total_questoes": 174
+    },
+    "2019": {
+      "tamanho_medio_questao": 100.01212121212122,
+      "tamanho_medio_contexto": 597.2363636363636,
+      "questoes_com_imagens": 57,
+      "percentual_imagens": 34.54545454545455,
+      "total_questoes": 165
+    },
+    "2020": {
+      "tamanho_medio_questao": 106.09497206703911,
+      "tamanho_medio_contexto": 591.8938547486033,
+      "questoes_com_imagens": 63,
+      "percentual_imagens": 35.19553072625698,
+      "total_questoes": 179
+    },
+    "2021": {
+      "tamanho_medio_questao": 104.92896174863388,
+      "tamanho_medio_contexto": 631.1256830601093,
+      "questoes_com_imagens": 67,
+      "percentual_imagens": 36.6120218579235,
+      "total_questoes": 183
+    },
+    "2022": {
+      "tamanho_medio_questao": 95.98324022346368,
+      "tamanho_medio_contexto": 721.9106145251396,
+      "questoes_com_imagens": 0,
+      "percentual_imagens": 0.0,
+      "total_questoes": 179
+    },
+    "2023": {
+      "tamanho_medio_questao": 102.73913043478261,
+      "tamanho_medio_contexto": 658.2246376811594,
+      "questoes_com_imagens": 56,
+      "percentual_imagens": 40.57971014492754,
+      "total_questoes": 138
+    },
+    "2024": {
+      "tamanho_medio_questao": 735.0611111111111,
+      "tamanho_medio_contexto": 0.0,
+      "questoes_com_imagens": 0,
+      "percentual_imagens": 0.0,
+      "total_questoes": 180
+    }
+  }
+}

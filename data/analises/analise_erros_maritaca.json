@@ -1,0 +1,5156 @@
+{
+  "analise_erros": {
+    "total_erros": 728,
+    "total_acertos": 2050,
+    "acuracia_geral": 73.79409647228222,
+    "erros_por_area": {
+      "languages": {
+        "erros": 49,
+        "acertos": 562,
+        "acuracia": 91.98036006546644
+      },
+      "human-sciences": {
+        "erros": 64,
+        "acertos": 659,
+        "acuracia": 91.14799446749655
+      },
+      "natural-sciences": {
+        "erros": 154,
+        "acertos": 386,
+        "acuracia": 71.48148148148148
+      },
+      "mathematics": {
+        "erros": 363,
+        "acertos": 183,
+        "acuracia": 33.51648351648351
+      },
+      "desconhecida": {
+        "erros": 98,
+        "acertos": 260,
+        "acuracia": 72.62569832402235
+      }
+    },
+    "padroes_erro": {
+      "E→B": 49,
+      "D→C": 40,
+      "A→D": 37,
+      "C→B": 71,
+      "D→A": 4,
+      "B→D": 45,
+      "E→D": 45,
+      "B→E": 18,
+      "B→C": 37,
+      "E→C": 35,
+      "A→B": 71,
+      "D→B": 48,
+      "C→D": 65,
+      "A→C": 45,
+      "C→E": 16,
+      "E→A": 8,
+      "A→E": 15,
+      "D→E": 16,
+      "C→A": 6,
+      "B→A": 7
+    },
+    "erros": [
+      {
+        "id": "enem_2009_languages_108",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2009_languages_121",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2009_languages_91",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2009_languages_127",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2009_human-sciences_63",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2009_human-sciences_68",
+        "resposta_correta": "D",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2009_human-sciences_78",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2009_human-sciences_157",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2009_human-sciences_165",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2009_human-sciences_141",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2009_human-sciences_86",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2009_natural-sciences_18",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2009_natural-sciences_19",
+        "resposta_correta": "D",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2009_natural-sciences_28",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2009_natural-sciences_35",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2009_natural-sciences_45",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2009_natural-sciences_43",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2009_natural-sciences_22",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2009_natural-sciences_44",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2009_natural-sciences_36",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2009_mathematics_152",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_150",
+        "resposta_correta": "D",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_138",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_137",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_151",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_148",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_142",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_147",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_139",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_153",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_158",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_162",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_164",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_173",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_168",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_175",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_167",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_171",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_176",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_149",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_172",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_177",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2009_mathematics_180",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_human-sciences_25",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2010_human-sciences_114",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2010_human-sciences_112",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2010_human-sciences_121",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2010_human-sciences_133",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2010_natural-sciences_47",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2010_natural-sciences_68",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2010_natural-sciences_64",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2010_natural-sciences_72",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2010_natural-sciences_89",
+        "resposta_correta": "E",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2010_natural-sciences_90",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2010_natural-sciences_84",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2010_natural-sciences_80",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2010_mathematics_139",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_145",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_147",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_140",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_148",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_141",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_155",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_152",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_153",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_157",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_158",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_156",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_159",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_163",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_142",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_137",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_165",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_170",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_172",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2010_mathematics_173",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_languages_91",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2011_languages_122",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2011_languages_126",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2011_human-sciences_33",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2011_human-sciences_154",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2011_human-sciences_153",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2011_human-sciences_165",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2011_human-sciences_157",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2011_human-sciences_151",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_58",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_47",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_56",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_50",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_61",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_59",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_63",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_74",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_77",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_76",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_85",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_natural-sciences_84",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2011_mathematics_146",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_145",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_155",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_137",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_141",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_142",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_144",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_156",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_139",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_150",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_167",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_158",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_168",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_159",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_174",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_166",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_172",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_179",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_173",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_170",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_175",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_169",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_176",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2011_mathematics_180",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_languages_92",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2012_languages_94",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2012_languages_99",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2012_languages_106",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2012_human-sciences_35",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2012_human-sciences_160",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2012_human-sciences_158",
+        "resposta_correta": "A",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2012_natural-sciences_46",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2012_natural-sciences_66",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2012_natural-sciences_68",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2012_natural-sciences_52",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2012_natural-sciences_50",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2012_natural-sciences_85",
+        "resposta_correta": "C",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2012_natural-sciences_64",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2012_natural-sciences_67",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2012_mathematics_136",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_138",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_148",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_146",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_141",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_152",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_140",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_139",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_137",
+        "resposta_correta": "D",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_147",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_149",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_143",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_144",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_159",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_164",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_172",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_167",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_173",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_162",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_168",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_171",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_180",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_177",
+        "resposta_correta": "B",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_175",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_153",
+        "resposta_correta": "A",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_154",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_165",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_166",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_179",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2012_mathematics_178",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_languages_109",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2013_languages_126",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2013_languages_123",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2013_human-sciences_3",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2013_human-sciences_10",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2013_human-sciences_29",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2013_human-sciences_136",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2013_human-sciences_173",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_52",
+        "resposta_correta": "B",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_65",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_53",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_68",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_67",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_76",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_81",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_46",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_78",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_77",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_49",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_84",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_90",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_66",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_natural-sciences_71",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2013_mathematics_151",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_149",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_140",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_145",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_139",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_152",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_150",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_141",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_148",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_155",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_161",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_166",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_162",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_156",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_165",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_137",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_167",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_169",
+        "resposta_correta": "D",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_142",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_170",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_175",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_176",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_172",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_178",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_177",
+        "resposta_correta": "D",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_179",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2013_mathematics_160",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_languages_107",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2014_human-sciences_25",
+        "resposta_correta": "C",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2014_human-sciences_40",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2014_human-sciences_67",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2014_natural-sciences_50",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2014_natural-sciences_63",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2014_natural-sciences_65",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2014_natural-sciences_75",
+        "resposta_correta": "E",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2014_natural-sciences_74",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2014_natural-sciences_76",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2014_natural-sciences_79",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2014_natural-sciences_77",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2014_mathematics_137",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_142",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_148",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_145",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_150",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_141",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_158",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_156",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_155",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_157",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_166",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_161",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_162",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_170",
+        "resposta_correta": "D",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_169",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_173",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_172",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_179",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_171",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_139",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_154",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2014_mathematics_167",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_languages_107",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2015_languages_101",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2015_languages_113",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2015_languages_127",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2015_languages_130",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2015_human-sciences_9",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2015_human-sciences_31",
+        "resposta_correta": "B",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2015_human-sciences_38",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2015_human-sciences_173",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_52",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_46",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_62",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_60",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_57",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_63",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_56",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_65",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_79",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_82",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_81",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_86",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_76",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_natural-sciences_80",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2015_mathematics_140",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_142",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_151",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_147",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_143",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_139",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_137",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_145",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_150",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_158",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_157",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_163",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_167",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_168",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_166",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_164",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_160",
+        "resposta_correta": "D",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_161",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_177",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_148",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_170",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2015_mathematics_165",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_languages_126",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2016_languages_118",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2016_human-sciences_17",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2016_human-sciences_7",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2016_human-sciences_41",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2016_human-sciences_44",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2016_human-sciences_81",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2016_human-sciences_21",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_59",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_51",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_61",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_71",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_69",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_78",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_70",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_68",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_84",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_80",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_46",
+        "resposta_correta": "D",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_90",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_natural-sciences_89",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2016_mathematics_142",
+        "resposta_correta": "E",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_147",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_139",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_138",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_140",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_143",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_141",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_150",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_151",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_148",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_155",
+        "resposta_correta": "E",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_154",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_159",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_158",
+        "resposta_correta": "D",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_164",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_166",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_163",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_165",
+        "resposta_correta": "C",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_153",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_169",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_175",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_174",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_177",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_172",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2016_mathematics_178",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_languages_24",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2017_human-sciences_16",
+        "resposta_correta": "D",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2017_human-sciences_72",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2017_human-sciences_74",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2017_human-sciences_80",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2017_human-sciences_138",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2017_human-sciences_124",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_105",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_101",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_102",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_95",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_106",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_111",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_113",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_114",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_152",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_123",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_natural-sciences_132",
+        "resposta_correta": "C",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2017_mathematics_150",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_140",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_136",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_139",
+        "resposta_correta": "C",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_153",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_151",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_155",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_165",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_159",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_158",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_144",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_163",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_176",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_175",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_177",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_173",
+        "resposta_correta": "A",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_179",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_180",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_156",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2017_mathematics_178",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_languages_14",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2018_languages_26",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2018_languages_24",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2018_languages_13",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2018_languages_39",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2018_languages_34",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2018_languages_40",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2018_human-sciences_71",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2018_human-sciences_120",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2018_human-sciences_114",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2018_human-sciences_164",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_117",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_108",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_118",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_128",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_111",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_130",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_110",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_113",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_127",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_natural-sciences_151",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2018_mathematics_144",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_148",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_140",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_142",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_147",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_141",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_139",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_145",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_153",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_159",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_162",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_156",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_163",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_160",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_155",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_171",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_138",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_166",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_136",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_172",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_165",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_146",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_176",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_173",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_161",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_179",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_175",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_157",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_169",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_174",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2018_mathematics_178",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_languages_14",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2019_languages_11",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2019_languages_32",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2019_human-sciences_61",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2019_human-sciences_66",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2019_natural-sciences_107",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2019_natural-sciences_91",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2019_natural-sciences_119",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2019_natural-sciences_113",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2019_natural-sciences_117",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2019_natural-sciences_133",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2019_natural-sciences_109",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2019_natural-sciences_135",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2019_mathematics_146",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_136",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_150",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_141",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_142",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_138",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_152",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_149",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_155",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_154",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_143",
+        "resposta_correta": "A",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_148",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_157",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_156",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_160",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_151",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_159",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_162",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_153",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_158",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_164",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_165",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_166",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_169",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_168",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_174",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_175",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_177",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_172",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_178",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_179",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_163",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_139",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2019_mathematics_170",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_languages_8",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_languages_2",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_languages_10",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_languages_17",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_languages_5",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_languages_14",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_languages_4",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_languages_6",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_languages_33",
+        "resposta_correta": "B",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_languages_25",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2020_natural-sciences_92",
+        "resposta_correta": "E",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_96",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_101",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_107",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_102",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_109",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_116",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_114",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_115",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_119",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_117",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_118",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_108",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_135",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_131",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_157",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_natural-sciences_134",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2020_mathematics_142",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_138",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_143",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_153",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_147",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_160",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_151",
+        "resposta_correta": "C",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_155",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_141",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_140",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_164",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_162",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_136",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_171",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_149",
+        "resposta_correta": "A",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_137",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_176",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_167",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_169",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_156",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_179",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_180",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_163",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_170",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2020_mathematics_177",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_languages_11",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2021_languages_34",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2021_languages_36",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2021_languages_40",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2021_human-sciences_22",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2021_human-sciences_25",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2021_human-sciences_85",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2021_human-sciences_115",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2021_human-sciences_165",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2021_human-sciences_103",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2021_human-sciences_175",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2021_human-sciences_178",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_96",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_110",
+        "resposta_correta": "D",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_108",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_92",
+        "resposta_correta": "D",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_117",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_113",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_129",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_94",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_132",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_114",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_124",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_130",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_105",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_121",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_133",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_127",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_natural-sciences_126",
+        "resposta_correta": "B",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2021_mathematics_140",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_138",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_142",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_148",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_147",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_152",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_144",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_145",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_151",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_146",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_141",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_158",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_160",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_166",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_163",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_149",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_170",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_169",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_139",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_173",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_167",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_156",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_155",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_171",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_177",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_172",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_154",
+        "resposta_correta": "A",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_168",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_174",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_161",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_179",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_162",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2021_mathematics_180",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "ENEM_2022_12",
+        "resposta_correta": "E",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_13",
+        "resposta_correta": "B",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_14",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_18",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_20",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_21",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_28",
+        "resposta_correta": "E",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_34",
+        "resposta_correta": "E",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_45",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_55",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_67",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_74",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_98",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_104",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_105",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_114",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_121",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_122",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_123",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_126",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_127",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_128",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_136",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_137",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_140",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_141",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_142",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_143",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_147",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_148",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_149",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_151",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_152",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_153",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_154",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_155",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_158",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_161",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_162",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_164",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_165",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_169",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_170",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_171",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_172",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_173",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_174",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_175",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_177",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_178",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_179",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "ENEM_2022_180",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "enem_2023_languages_16",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2023_languages_12",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "languages"
+      },
+      {
+        "id": "enem_2023_human-sciences_102",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2023_human-sciences_173",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2023_human-sciences_126",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2023_human-sciences_174",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2023_human-sciences_137",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "human-sciences"
+      },
+      {
+        "id": "enem_2023_natural-sciences_91",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2023_natural-sciences_97",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2023_natural-sciences_114",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2023_natural-sciences_134",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "natural-sciences"
+      },
+      {
+        "id": "enem_2023_mathematics_140",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_141",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_144",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_148",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_142",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_152",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_146",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_157",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_162",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_166",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_169",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_160",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_147",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_164",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_153",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_176",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_180",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_0",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_158",
+        "resposta_correta": "A",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_175",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_177",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_119",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_163",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_178",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_167",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_159",
+        "resposta_correta": "D",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "enem_2023_mathematics_172",
+        "resposta_correta": "A",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "mathematics"
+      },
+      {
+        "id": "questao_02",
+        "resposta_correta": "A",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_03",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_21",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_24",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_29",
+        "resposta_correta": "A",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_86",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_93",
+        "resposta_correta": "B",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_99",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_101",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_102",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_103",
+        "resposta_correta": "E",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_106",
+        "resposta_correta": "C",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_108",
+        "resposta_correta": "E",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_114",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_116",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_117",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_120",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_122",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_128",
+        "resposta_correta": "E",
+        "resposta_ia": null,
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_130",
+        "resposta_correta": "A",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_131",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_137",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_139",
+        "resposta_correta": "C",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_140",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_141",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_142",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_145",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_146",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_150",
+        "resposta_correta": "D",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_152",
+        "resposta_correta": "B",
+        "resposta_ia": "C",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_154",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_156",
+        "resposta_correta": "B",
+        "resposta_ia": "A",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_158",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_161",
+        "resposta_correta": "C",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_162",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_163",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_165",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_166",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_168",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_170",
+        "resposta_correta": "D",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_171",
+        "resposta_correta": "E",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_173",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_174",
+        "resposta_correta": "B",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_177",
+        "resposta_correta": "A",
+        "resposta_ia": "B",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_179",
+        "resposta_correta": "C",
+        "resposta_ia": "D",
+        "acerto": false,
+        "area": "desconhecida"
+      },
+      {
+        "id": "questao_180",
+        "resposta_correta": "B",
+        "resposta_ia": "E",
+        "acerto": false,
+        "area": "desconhecida"
+      }
+    ]
+  },
+  "sugestoes_maritaca": "### Análise Detalhada e Sugestões de Melhoria\n\n#### 1. IDENTIFICAR OS PRINCIPAIS PROBLEMAS\n\n**Acurácia em Matemática (33.52%)**\n- **Complexidade das Questões:** Questões de matemática frequentemente envolvem múltiplos passos de resolução, cálculos complexos e a aplicação de diversas fórmulas. A IA pode estar enfrentando dificuldades em seguir todas essas etapas corretamente ou em interpretar corretamente o contexto matemático.\n- **Erros de Cálculo:** Erros aritméticos ou algébricos básicos podem levar a discrepâncias significativas nas respostas.\n- **Interpretação de Problemas:** A IA pode não estar interpretando corretamente as informações apresentadas, especialmente em problemas de palavras que exigem a tradução de texto em equações matemáticas.\n\n**Padrão de Escolha da Alternativa B**\n- **Bias Aleatório:** Pode haver um viés não intencional no modelo que o leva a favorecer a alternativa B em situações de incerteza.\n- **Frequência de Respostas:** Se a alternativa B aparece frequentemente como a correta em um conjunto de treinamento, a IA pode ter aprendido a favorecê-la.\n\n**Características das Questões Mais Erradas**\n- **Multi-Step Reasoning:** Questões que exigem raciocínio em múltiplos passos.\n- **Contextual Interpretation:** Itens que necessitam de interpretação contextual profunda.\n- **Traps:** Questões com \"armadilhas\" que testam atenção a detalhes sutis.\n\n#### 2. SUGERIR MELHORIAS NO PROMPT\n\n**Melhorar o Prompt para Acurácia em Matemática**\n- **Instruções Detalhadas:** Incluir instruções para quebrar o problema em etapas claras. Por exemplo:\n  ```markdown\n  Resolva o problema passo a passo, justificando cada etapa da sua resolução.\n  ```\n- **Exigir Verificação:** Incluir uma etapa de verificação final.\n  ```markdown\n  Após resolver, verifique se a resposta se encaixa nos dados fornecidos e se está em conformidade com as unidades de medida.\n  ```\n\n**Evitar Tendência de Escolher B por Padrão**\n- **Randomização de Escolha:** Incentivar a randomização da escolha em caso de incerteza, ao invés de recair sempre na alternativa B.\n  ```markdown\n  Se não tiver certeza da resposta correta, escolha aleatoriamente entre as opções restantes, ao invés de optar automaticamente pela alternativa B.\n  ```\n\n**Instruções Específicas**\n- **Clarificação de Passos:**\n  ```markdown\n  Para cada questão, descreva:\n  1. A interpretação do problema.\n  2. As etapas de resolução.\n  3. A verificação da resposta.\n  ```\n\n**Estruturação do Prompt para Questões do ENEM**\n- **Template Estruturado:**\n  ```markdown\n  ### Questão de [Área]\n  **Contexto:**\n  [Inserir o contexto da questão]\n\n  **Pergunta:**\n  [Inserir a pergunta]\n\n  **Alternativas:**\n  A. [Alternativa A]\n  B. [Alternativa B]\n  C. [Alternativa C]\n  D. [Alternativa D]\n  E. [Alternativa E]\n\n  **Resolução Passo a Passo:**\n  1. **Interpretação do Problema:**\n     - [Explicar o que a questão está pedindo]\n  2. **Etapas de Resolução:**\n     - Etapa 1: [Primeira etapa de cálculo ou análise]\n     - Etapa 2: [Segunda etapa de cálculo ou análise]\n     - ...\n  3. **Verificação:**\n     - [Verificar se a resposta faz sentido no contexto do problema]\n\n  **Resposta Final:**\n  - [Letra da resposta correta justificada]\n  ```\n\n#### 3. RECOMENDAÇÕES ESPECÍFICAS\n\n**Estratégias para Análise de Questões de Matemática**\n- **Quebrar em Etapas:** Divida o problema em etapas menores e resolva cada uma individualmente.\n- **Utilizar Fórmulas:** Identifique e aplique fórmulas relevantes, mostrando cada substituição de variáveis.\n\n**Técnicas para Eliminação de Alternativas Incorretas**\n- **Checagem Dimensional:** Verifique as unidades de medida para eliminar alternativas com unidades incorretas.\n- **Estimativas:** Use estimativas rápidas para eliminar opções claramente desproporcionais.\n\n**Uso de Campos Semânticos**\n- **Contextualização:** Relacione o problema com conceitos e contextos semânticos conhecidos.\n- **Palavras-Chave:** Identifique palavras-chave que indicam operações matemáticas ou conceitos específicos.\n\n**Metodologia de Resolução Passo a Passo**\n1. **Leitura Atenta:** Leia cuidadosamente para entender o que é pedido.\n2. **Identificação de Dados:** Sublinhe ou liste os dados fornecidos.\n3. **Escolha da Abordagem:** Decida qual método ou fórmula aplicar.\n4. **Resolução:** Execute a resolução passo a passo.\n5. **Revisão:** Revise a resposta para garantir que responde corretamente à pergunta feita.\n\n### Implementação Prática\n\n**Exemplo de Prompt Melhorado:**\n\n```markdown\n### Questão de Matemática\n**Contexto:**\nPesquisadores da Universidade de Tecnologia de Viena, na Áustria, produziram miniaturas em impressoras 3D de alta precisão. Ao serem ativadas, tais impressoras lançam feixes de laser sobre...\n\n**Pergunta:**\nUsando notação científica, qual é a representação do comprimento dessa miniatura, em metro?\n\n**Alternativas:**\nA. 1,0 x 10^-1\nB. 1,0 x 10^-3\nC. 1,0 x 10^-4\nD. 1,0 x 10^-6\nE. 1,0 x 10^-7\n\n**Resolução Passo a Passo:**\n1. **Interpretação do Problema:**\n   - Precisamos converter o comprimento da miniatura para notação científica em metros.\n   \n2. **Etapas de Resolução:**\n   - Etapa 1: Identificar o valor fornecido (suponha que o valor dado no contexto seja 0,0001 metros).\n   - Etapa 2: Converter para notação científica: 0,0001 m = 1,0 x 10^-4 m.\n\n3. **Verificação:**\n   - A resposta 1,0 x 10^-4 m está correta e em notação científica adequada.\n\n**Resposta Final:**\n- **C. 1,0 x 10^-4**\n```\n\n### Conclusão\n\nPara aumentar a acurácia da IA nas questões do ENEM, especialmente em matemática, é crucial focar na clareza da resolução passo a passo, na verificação das respostas e na eliminação de vieses na escolha de alternativas. Implementando essas melhorias nos prompts e seguindo as estratégias recomendadas, é possível elevar a taxa de acurácia para o intervalo desejado de 85-90%.",
+  "timestamp": 1764426814.373398
+}

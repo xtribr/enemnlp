@@ -1,0 +1,32 @@
+{
+  "total": {
+    "media": 173.6875,
+    "tendencia": "crescente",
+    "variacao_total": 6.0,
+    "variacao_percentual": 3.4482758620689653
+  },
+  "languages": {
+    "media": 38.1875,
+    "tendencia": "decrescente",
+    "variacao_total": -39.0,
+    "variacao_percentual": -100.0
+  },
+  "human-sciences": {
+    "media": 45.1875,
+    "tendencia": "decrescente",
+    "variacao_total": -56.0,
+    "variacao_percentual": -100.0
+  },
+  "natural-sciences": {
+    "media": 33.75,
+    "tendencia": "decrescente",
+    "variacao_total": -38.0,
+    "variacao_percentual": -100.0
+  },
+  "mathematics": {
+    "media": 34.125,
+    "tendencia": "decrescente",
+    "variacao_total": -41.0,
+    "variacao_percentual": -100.0
+  }
+}

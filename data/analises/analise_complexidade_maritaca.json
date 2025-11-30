@@ -1,0 +1,152 @@
+{
+  "2022": {
+    "analises": [
+      {
+        "nivel_complexidade": "medio",
+        "score_complexidade": 65,
+        "conceitos_principais": [
+          "variação linguística",
+          "semântica",
+          "cultura hispânica",
+          "amizade",
+          "contexto social"
+        ],
+        "justificativa": "O texto do ENEM aborda a variação semântica do termo 'amigo' em diferentes regiões hispanófonas, integrando conceitos culturais e sociais. A complexidade semântica é moderada, pois exige compreensão contextual e conhecimento de expressões idiomáticas, mas não apresenta estruturas gramaticais extremamente avançadas.",
+        "id": "ENEM_2022_4",
+        "area": "desconhecida"
+      },
+      {
+        "nivel_complexidade": "medio",
+        "score_complexidade": 60,
+        "conceitos_principais": [
+          "Combinação matemática",
+          "Princípio fundamental da contagem",
+          "Análise de possibilidades",
+          "Configuração de produtos",
+          "Raciocínio lógico"
+        ],
+        "justificativa": "A questão envolve o uso do princípio fundamental da contagem para determinar o número mínimo de cores necessárias, considerando as variações de modelos, motores e opcionais. Requer raciocínio lógico e compreensão de combinações matemáticas, o que a torna de complexidade média.",
+        "id": "ENEM_2022_172",
+        "area": "desconhecida"
+      },
+      {
+        "nivel_complexidade": "medio",
+        "score_complexidade": 65,
+        "conceitos_principais": [
+          "Sistema de equações lineares",
+          "Interpretação de problemas de matemática aplicada",
+          "Lógica de resolução de problemas",
+          "Cálculo de distâncias",
+          "Otimização de percursos"
+        ],
+        "justificativa": "A questão envolve a criação e resolução de um sistema de equações lineares para determinar as distâncias dos circuitos, além de exigir a aplicação de lógica para otimizar o número de voltas para atingir uma distância específica. Esses conceitos são intermediários e comuns em exames como o ENEM, mas requerem compreensão clara e habilidade de aplicação prática.",
+        "id": "ENEM_2022_170",
+        "area": "desconhecida"
+      }
+    ],
+    "estatisticas": {
+      "total_analisadas": 3,
+      "media_score": 63.333333333333336
+    }
+  },
+  "2023": {
+    "analises": [
+      {
+        "nivel_complexidade": "medio",
+        "score_complexidade": 65,
+        "conceitos_principais": [
+          "inclusão esportiva",
+          "identidade de gênero",
+          "políticas olímpicas",
+          "transição de gênero",
+          "critérios hormonais"
+        ],
+        "justificativa": "O texto aborda temas complexos como identidade de gênero e políticas inclusivas no esporte, exigindo compreensão de conceitos sociais e regulamentares. No entanto, a linguagem é relativamente clara e direta, facilitando a compreensão geral.",
+        "id": "enem_2023_languages_30",
+        "area": "languages"
+      },
+      {
+        "nivel_complexidade": "medio",
+        "score_complexidade": 65,
+        "conceitos_principais": [
+          "concorrência desleal",
+          "regras de produção",
+          "reduções de tarifas",
+          "acordo comercial",
+          "acesso ao mercado"
+        ],
+        "justificativa": "O texto aborda questões comerciais e econômicas complexas, envolvendo diferentes perspectivas de grupos econômicos europeus sobre um acordo com o Mercosul. Os conceitos principais são relevantes para entender o debate, mas o texto é claro e direto, não exigindo conhecimento especializado profundo.",
+        "id": "enem_2023_human-sciences_63",
+        "area": "human-sciences"
+      },
+      {
+        "nivel_complexidade": "medio",
+        "score_complexidade": 65,
+        "conceitos_principais": [
+          "escravidão",
+          "desumanização",
+          "indignação histórica",
+          "sofrimento humano",
+          "legado histórico"
+        ],
+        "justificativa": "O texto de Olavo Bilac aborda a escravidão no Brasil com uma linguagem emotiva e descritiva, utilizando termos fortes e evocativos para ilustrar o sofrimento humano. A complexidade semântica é média, pois envolve conceitos históricos e emocionais densos, mas a estrutura narrativa é relativamente clara e direta.",
+        "id": "enem_2023_languages_16",
+        "area": "languages"
+      }
+    ],
+    "estatisticas": {
+      "total_analisadas": 3,
+      "media_score": 65.0
+    }
+  },
+  "2024": {
+    "analises": [
+      {
+        "nivel_complexidade": "medio",
+        "score_complexidade": 60,
+        "conceitos_principais": [
+          "hierarquia profissional",
+          "saúde pública",
+          "educação sanitária",
+          "equipe multidisciplinar",
+          "pessoal burocrático"
+        ],
+        "justificativa": "O texto aborda a estrutura hierárquica e a importância de diferentes funções na saúde pública, utilizando uma metáfora militar para ilustrar a necessidade de uma equipe multidisciplinar. A complexidade semântica é média devido à necessidade de compreender a analogia e os termos específicos da área de saúde pública.",
+        "id": "questao_88",
+        "area": "desconhecida"
+      },
+      {
+        "nivel_complexidade": "medio",
+        "score_complexidade": 60,
+        "conceitos_principais": [
+          "Análise de obra de arte",
+          "Influência europeia na pintura brasileira",
+          "Contexto histórico-artístico",
+          "Elementos visuais e simbólicos na pintura",
+          "Interpretação semântica de imagens"
+        ],
+        "justificativa": "A questão exige que o leitor identifique e interprete elementos de uma pintura, relacionando-a com influências culturais e contextos históricos. Não é simplesmente factual, mas também requer uma análise mais aprofundada dos aspectos semânticos e simbólicos presentes na obra.",
+        "id": "questao_27",
+        "area": "desconhecida"
+      },
+      {
+        "nivel_complexidade": "medio",
+        "score_complexidade": 65,
+        "conceitos_principais": [
+          "arte afro-brasileira",
+          "multiculturalidade",
+          "cultura negra nacional",
+          "influência social",
+          "produção plástica"
+        ],
+        "justificativa": "O texto aborda conceitos culturais e artísticos de maneira relativamente clara, mas exige compreensão de termos específicos como 'multiculturalidade' e 'produção plástica'. A análise envolve a contextualização histórica e social de artistas e suas obras, o que adiciona uma camada de complexidade semântica.",
+        "id": "questao_35",
+        "area": "desconhecida"
+      }
+    ],
+    "estatisticas": {
+      "total_analisadas": 3,
+      "media_score": 61.666666666666664
+    }
+  }
+}

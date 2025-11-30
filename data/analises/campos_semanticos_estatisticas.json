@@ -1,0 +1,236 @@
+{
+  "2009": {
+    "total_questoes": 174,
+    "questoes_com_campos": 47,
+    "campos_mais_frequentes": {
+      "linguagem": 6,
+      "sociedade": 5,
+      "comunicação": 4,
+      "literatura": 4,
+      "política": 3,
+      "politica": 3,
+      "cultura": 3,
+      "história": 3,
+      "historia": 3,
+      "cálculo": 3
+    }
+  },
+  "2010": {
+    "total_questoes": 184,
+    "questoes_com_campos": 52,
+    "campos_mais_frequentes": {
+      "história": 10,
+      "historia": 10,
+      "sociedade": 8,
+      "política": 7,
+      "politica": 7,
+      "cultura": 5,
+      "ambiente": 4,
+      "química": 4,
+      "quimica": 4,
+      "linguagem": 3
+    }
+  },
+  "2011": {
+    "total_questoes": 185,
+    "questoes_com_campos": 57,
+    "campos_mais_frequentes": {
+      "sociedade": 9,
+      "história": 6,
+      "historia": 6,
+      "comunicação": 5,
+      "política": 5,
+      "politica": 5,
+      "economia": 4,
+      "arte": 3,
+      "educação física": 3,
+      "educacao fisica": 3
+    }
+  },
+  "2012": {
+    "total_questoes": 182,
+    "questoes_com_campos": 46,
+    "campos_mais_frequentes": {
+      "política": 8,
+      "politica": 8,
+      "arte": 4,
+      "linguagem": 4,
+      "sociedade": 4,
+      "cultura": 3,
+      "geografia": 3,
+      "história": 3,
+      "historia": 3,
+      "ambiente": 3
+    }
+  },
+  "2013": {
+    "total_questoes": 180,
+    "questoes_com_campos": 45,
+    "campos_mais_frequentes": {
+      "comunicação": 7,
+      "política": 6,
+      "politica": 6,
+      "química": 6,
+      "quimica": 6,
+      "história": 5,
+      "historia": 5,
+      "linguagem": 4,
+      "sociedade": 4,
+      "cultura": 3
+    }
+  },
+  "2014": {
+    "total_questoes": 164,
+    "questoes_com_campos": 43,
+    "campos_mais_frequentes": {
+      "história": 6,
+      "historia": 6,
+      "literatura": 5,
+      "linguagem": 5,
+      "política": 5,
+      "politica": 5,
+      "química": 5,
+      "quimica": 5,
+      "arte": 3,
+      "cultura": 3
+    }
+  },
+  "2015": {
+    "total_questoes": 169,
+    "questoes_com_campos": 44,
+    "campos_mais_frequentes": {
+      "sociedade": 8,
+      "história": 6,
+      "historia": 6,
+      "linguagem": 5,
+      "química": 4,
+      "quimica": 4,
+      "comunicação": 3,
+      "cultura": 3,
+      "artes": 2,
+      "literatura": 2
+    }
+  },
+  "2016": {
+    "total_questoes": 161,
+    "questoes_com_campos": 35,
+    "campos_mais_frequentes": {
+      "história": 7,
+      "historia": 7,
+      "política": 6,
+      "politica": 6,
+      "química": 4,
+      "quimica": 4,
+      "comunicação": 3,
+      "linguagem": 3,
+      "literatura": 2,
+      "arte": 2
+    }
+  },
+  "2017": {
+    "total_questoes": 182,
+    "questoes_com_campos": 46,
+    "campos_mais_frequentes": {
+      "linguagem": 5,
+      "política": 5,
+      "politica": 5,
+      "história": 5,
+      "historia": 5,
+      "química": 5,
+      "quimica": 5,
+      "economia": 4,
+      "sociedade": 4,
+      "comunicação": 3
+    }
+  },
+  "2018": {
+    "total_questoes": 174,
+    "questoes_com_campos": 52,
+    "campos_mais_frequentes": {
+      "linguagem": 7,
+      "história": 7,
+      "historia": 7,
+      "política": 5,
+      "politica": 5,
+      "probabilidade": 5,
+      "química": 4,
+      "quimica": 4,
+      "arte": 3,
+      "literatura": 3
+    }
+  },
+  "2019": {
+    "total_questoes": 165,
+    "questoes_com_campos": 50,
+    "campos_mais_frequentes": {
+      "política": 6,
+      "politica": 6,
+      "história": 5,
+      "historia": 5,
+      "química": 5,
+      "quimica": 5,
+      "sociedade": 4,
+      "geografia": 4,
+      "linguagem": 3,
+      "comunicação": 3
+    }
+  },
+  "2020": {
+    "total_questoes": 179,
+    "questoes_com_campos": 48,
+    "campos_mais_frequentes": {
+      "ambiente": 7,
+      "história": 6,
+      "historia": 6,
+      "química": 5,
+      "quimica": 5,
+      "arte": 4,
+      "linguagem": 4,
+      "política": 3,
+      "politica": 3,
+      "filosofia": 3
+    }
+  },
+  "2021": {
+    "total_questoes": 183,
+    "questoes_com_campos": 45,
+    "campos_mais_frequentes": {
+      "sociedade": 9,
+      "arte": 5,
+      "química": 5,
+      "quimica": 5,
+      "política": 4,
+      "politica": 4,
+      "linguagem": 3,
+      "cultura": 3,
+      "ambiente": 3,
+      "literatura": 2
+    }
+  },
+  "2022": {
+    "total_questoes": 179,
+    "questoes_com_campos": 0,
+    "campos_mais_frequentes": {}
+  },
+  "2023": {
+    "total_questoes": 138,
+    "questoes_com_campos": 35,
+    "campos_mais_frequentes": {
+      "arte": 5,
+      "história": 5,
+      "historia": 5,
+      "sociedade": 4,
+      "química": 4,
+      "quimica": 4,
+      "linguagem": 2,
+      "literatura": 2,
+      "artes": 2,
+      "geografia": 2
+    }
+  },
+  "2024": {
+    "total_questoes": 180,
+    "questoes_com_campos": 0,
+    "campos_mais_frequentes": {}
+  }
+}

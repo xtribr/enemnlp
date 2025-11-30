@@ -1,0 +1,475 @@
+{
+  "resultados": [
+    {
+      "id": "enem_2011_mathematics_160",
+      "resposta_correta": "A",
+      "resposta_ia": "A",
+      "acerto": true,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2009_mathematics_171",
+      "resposta_correta": "C",
+      "resposta_ia": "D",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2013_mathematics_167",
+      "resposta_correta": "D",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2010_mathematics_158",
+      "resposta_correta": "A",
+      "resposta_ia": "B",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 1,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2020_mathematics_136",
+      "resposta_correta": "A",
+      "resposta_ia": "D",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2016_mathematics_150",
+      "resposta_correta": "D",
+      "resposta_ia": "B",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2018_mathematics_150",
+      "resposta_correta": "A",
+      "resposta_ia": "A",
+      "acerto": true,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2023_mathematics_139",
+      "resposta_correta": "C",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2019_mathematics_138",
+      "resposta_correta": "D",
+      "resposta_ia": "B",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 2,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2015_mathematics_150",
+      "resposta_correta": "C",
+      "resposta_ia": "B",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2014_mathematics_141",
+      "resposta_correta": "E",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2011_mathematics_155",
+      "resposta_correta": "C",
+      "resposta_ia": "D",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2014_mathematics_173",
+      "resposta_correta": "B",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2010_mathematics_139",
+      "resposta_correta": "A",
+      "resposta_ia": "A",
+      "acerto": true,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2017_mathematics_155",
+      "resposta_correta": "B",
+      "resposta_ia": "D",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2023_mathematics_169",
+      "resposta_correta": "C",
+      "resposta_ia": "D",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 2,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2012_mathematics_149",
+      "resposta_correta": "B",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2013_mathematics_141",
+      "resposta_correta": "A",
+      "resposta_ia": "B",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2023_mathematics_115",
+      "resposta_correta": "C",
+      "resposta_ia": "C",
+      "acerto": true,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2019_mathematics_152",
+      "resposta_correta": "C",
+      "resposta_ia": "D",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2017_mathematics_144",
+      "resposta_correta": "A",
+      "resposta_ia": "A",
+      "acerto": true,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2010_mathematics_173",
+      "resposta_correta": "D",
+      "resposta_ia": "D",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2014_mathematics_150",
+      "resposta_correta": "A",
+      "resposta_ia": "A",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 2,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2013_mathematics_177",
+      "resposta_correta": "D",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2009_mathematics_180",
+      "resposta_correta": "B",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2021_mathematics_143",
+      "resposta_correta": "C",
+      "resposta_ia": "C",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 2,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2023_mathematics_168",
+      "resposta_correta": "C",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2023_mathematics_165",
+      "resposta_correta": "C",
+      "resposta_ia": "C",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 2,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2019_mathematics_179",
+      "resposta_correta": "D",
+      "resposta_ia": "D",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2016_mathematics_155",
+      "resposta_correta": "E",
+      "resposta_ia": "D",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 2,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2010_mathematics_137",
+      "resposta_correta": "E",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2016_mathematics_164",
+      "resposta_correta": "A",
+      "resposta_ia": "E",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 1,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2015_mathematics_177",
+      "resposta_correta": "E",
+      "resposta_ia": "C",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2012_mathematics_175",
+      "resposta_correta": "B",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2012_mathematics_157",
+      "resposta_correta": "C",
+      "resposta_ia": "C",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2010_mathematics_157",
+      "resposta_correta": "D",
+      "resposta_ia": "E",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2014_mathematics_156",
+      "resposta_correta": "C",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2014_mathematics_158",
+      "resposta_correta": "E",
+      "resposta_ia": "A",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2016_mathematics_165",
+      "resposta_correta": "C",
+      "resposta_ia": "B",
+      "acerto": false,
+      "usou_few_shot": false,
+      "num_exemplos": 0,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2021_mathematics_144",
+      "resposta_correta": "A",
+      "resposta_ia": "B",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2015_mathematics_160",
+      "resposta_correta": "D",
+      "resposta_ia": "B",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2013_mathematics_174",
+      "resposta_correta": "C",
+      "resposta_ia": "C",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 2,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2014_mathematics_167",
+      "resposta_correta": "D",
+      "resposta_ia": "C",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2015_mathematics_140",
+      "resposta_correta": "A",
+      "resposta_ia": "B",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2019_mathematics_139",
+      "resposta_correta": "E",
+      "resposta_ia": "C",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 1,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2020_mathematics_158",
+      "resposta_correta": "C",
+      "resposta_ia": "C",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 1,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2011_mathematics_163",
+      "resposta_correta": "D",
+      "resposta_ia": "D",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2012_mathematics_155",
+      "resposta_correta": "B",
+      "resposta_ia": "B",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 2,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2018_mathematics_141",
+      "resposta_correta": "A",
+      "resposta_ia": "C",
+      "acerto": false,
+      "usou_few_shot": true,
+      "num_exemplos": 3,
+      "tem_analise": true
+    },
+    {
+      "id": "enem_2009_mathematics_156",
+      "resposta_correta": "D",
+      "resposta_ia": "D",
+      "acerto": true,
+      "usou_few_shot": true,
+      "num_exemplos": 1,
+      "tem_analise": true
+    }
+  ],
+  "total": 50,
+  "acertos": 16,
+  "erros": 34,
+  "acuracia": 32.0,
+  "tempo_total": 707.6250476837158,
+  "tempo_medio": 14.152500953674316,
+  "sistema": "completo_100_maritaca_otimizado",
+  "com_few_shot": 30,
+  "com_analise": 50,
+  "comparacao_anterior": {
+    "sistema_anterior_50": {
+      "acuracia": 56.00000000000001,
+      "total": 50,
+      "acertos": 28
+    },
+    "sistema_anterior_100": {
+      "acuracia": 31.0,
+      "total": 100,
+      "acertos": 31
+    }
+  }
+}

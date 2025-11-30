@@ -1,310 +1,159 @@
-# GPT-4-ENEM
+# 🎓 ENEM NLP - Análise e Avaliação de Modelos de Linguagem no ENEM
 
-**\*\*\* Most of the code in this repository has been adapted from [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness). \*\*\***
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Introduction
+Sistema completo para análise semântica, preditiva e avaliação de modelos de linguagem nas provas do **Exame Nacional do Ensino Médio (ENEM)**.
 
-This repository contains code and data used in the following papers:
+> **\*\*\* Most of the code in this repository has been adapted from [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness). \*\*\***
 
-- [Evaluating GPT-4's Vision Capabilities on Brazilian University Admission Exams](https://arxiv.org/abs/2311.14169). 
-- [Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams](https://arxiv.org/abs/2303.17003).
+---
 
-This most recent study presents a comprehensive framework to evaluate language models on entrance exams, which incorporates both textual and visual elements. We evaluate the three most recent editions of *[Exame Nacional do Ensino Médio (ENEM)](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)*, the main standardized entrance examination adopted by Brazilian universities.
+## 📋 Índice
 
-<!-- Our study not only reaffirms the capabilities of GPT-4 as the state of the art for handling complex multidisciplinary questions, but also pioneers in offering a realistic assessment of multimodal language models on Portuguese examinations. -->
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Funcionalidades](#-funcionalidades)
+- [Dados](#-dados)
+- [Instalação](#-instalação)
+- [Uso Rápido](#-uso-rápido)
+- [Análises Avançadas](#-análises-avançadas)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Resultados](#-resultados)
+- [Citação](#-citação)
 
-One of the highlights is that text captions transcribing visual content outperform the direct use of images, suggesting that the vision model has room for improvement. Yet, despite improvements afforded by images or captions, mathematical questions remain a challenge for these state-of-the-art models.
+---
 
-Significant improvements are noticeable when incorporating either textual or visual representations of images, with the difference nearing 10 points, particularly when utilizing captions.
+## 🎯 Sobre o Projeto
 
-<table>
-  <tr>
-    <th rowspan="2">Area</th>
-    <th colspan="3" style="text-align: center;">GPT-4o</th>
-    <th colspan="3" style="text-align: center;">Sabiá-3</th>
-  </tr>
-  <tr>
-    <th>without images</th>
-    <th>with captions</th>
-    <th>with CoT + captions</th>
-    <th>without images</th>
-    <th>with captions</th>
-    <th>with CoT + captions</th>
-  </tr>
-  <tr>
-    <td>Languages and Codes</td>
-    <td>88.89</td>
-    <td>91.11</td>
-    <td>91.11</td>
-    <td>86.67</td>
-    <td>91.11</td>
-    <td>93.33</td>
-  </tr>
-  <tr>
-    <td>Human Sciences</td>
-    <td>100.00</td>
-    <td>100.00</td>
-    <td>100.00</td>
-    <td>100.00</td>
-    <td>100.00</td>
-    <td>100.00</td>
-  </tr>
-  <tr>
-    <td>Natural Sciences</td>
-    <td>68.18</td>
-    <td>84.09</td>
-    <td>93.18</td>
-    <td>72.73</td>
-    <td>81.82</td>
-    <td>86.36</td>
-  </tr>
-  <tr>
-    <td>Mathematics</td>
-    <td>60.00</td>
-    <td>66.67</td>
-    <td>91.11</td>
-    <td>60.00</td>
-    <td>75.56</td>
-    <td>82.22</td>
-  </tr>
-  <tr>
-    <td style="font-weight: bold;">Total</td>
-    <td style="font-weight: bold;">79.33</td>
-    <td style="font-weight: bold;">85.47</td>
-    <td style="font-weight: bold;">93.85</td>
-    <td style="font-weight: bold;">79.89</td>
-    <td style="font-weight: bold;">87.15</td>
-    <td style="font-weight: bold;">90.50</td>
-  </tr>
-</table>
+Este repositório contém código e dados utilizados nos seguintes artigos:
 
-<p style="text-align: center;">Results of GPT-4o and Sabiá-3 on ENEM 2024, using 3-shot prompts.</p>
+- [Evaluating GPT-4's Vision Capabilities on Brazilian University Admission Exams](https://arxiv.org/abs/2311.14169)
+- [Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams](https://arxiv.org/abs/2303.17003)
 
-## Data
+Além da avaliação de modelos, o projeto oferece:
 
-We made available the [ENEM 2022](data/enem/2022.jsonl), [ENEM 2023](data/enem/2023.jsonl), and [ENEM 2024](data/enem/2024.jsonl) datasets. These datasets encompass all multiple-choice questions from the last three editions. The datasets have been created to allow the evaluation of both textual-only and textual-visual language models. To evaluate textual-only models, we incorporated into the datasets the textual descriptions of the images that appear in the questions' statements from the orange ENEM exam booklet, a particular booklet that offers accessibility to people with visual impairments.
+- ✅ **Análise Semântica**: Embeddings, similaridade, correlação entre áreas
+- ✅ **Análise Preditiva**: Tendências temporais, modelos de dificuldade
+- ✅ **Avaliação de Modelos**: Framework completo para avaliar LLMs no ENEM
+- ✅ **Integração com Maritaca Sabiá-3**: Sistema completo de avaliação e análise
+- ✅ **Visualizações**: Gráficos interativos e dashboards
 
-The datasets can also be accessed via the 🤗 Datasets library: https://huggingface.co/datasets/maritaca-ai/enem
+---
 
-The deprecated ENEM 2022 dataset can be found [here](data/enem/2022.json).
+## 🚀 Funcionalidades
 
-> [!Warning]
-> We do not recommend using the deprecated dataset, since it does not include the image placeholders, image paths, and textual descriptions. Also, the tables are not well-formatted.
+### 1. Avaliação de Modelos de Linguagem
 
-## Tasks
+Avalie modelos como GPT-4, GPT-4o, Sabiá-3 e outros em questões do ENEM:
 
-We have implemented a set of 22 tasks, described below:
+- **22 tarefas diferentes** (blind, images, captions, com/sem CoT)
+- **ENEM 2022, 2023, 2024** completos
+- **Few-shot learning** configurável
+- **Chain-of-Thought (CoT)** para raciocínio passo-a-passo
 
-<table>
-  <thead>
-    <tr>
-      <th>Task</th>
-      <th>Enem edition</th>
-      <th>Experiment</th>
-      <th>CoT</th>
-      <th>Use all the questions</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>enem_2022_blind</td>
-      <td>ENEM 2022</td>
-      <td>without images</td>
-      <td>No</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2022_blind</td>
-      <td>ENEM 2022</td>
-      <td>without images</td>
-      <td>Yes</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_2022_images</td>
-      <td>ENEM 2022</td>
-      <td>with images</td>
-      <td>No</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2022_images</td>
-      <td>ENEM 2022</td>
-      <td>with images</td>
-      <td>Yes</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_2022_captions</td>
-      <td>ENEM 2022</td>
-      <td>with captions</td>
-      <td>No</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2022_captions</td>
-      <td>ENEM 2022</td>
-      <td>with captions</td>
-      <td>Yes</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_2023_blind</td>
-      <td>ENEM 2023</td>
-      <td>without images</td>
-      <td>No</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2023_blind</td>
-      <td>ENEM 2023</td>
-      <td>without images</td>
-      <td>Yes</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_2023_images</td>
-      <td>ENEM 2023</td>
-      <td>with images</td>
-      <td>No</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2023_images</td>
-      <td>ENEM 2023</td>
-      <td>with images</td>
-      <td>Yes</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_2023_captions</td>
-      <td>ENEM 2023</td>
-      <td>with captions</td>
-      <td>No</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2023_captions</td>
-      <td>ENEM 2023</td>
-      <td>with captions</td>
-      <td>Yes</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_2024_blind</td>
-      <td>ENEM 2024</td>
-      <td>without images</td>
-      <td>No</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2024_blind</td>
-      <td>ENEM 2024</td>
-      <td>without images</td>
-      <td>Yes</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_2024_images</td>
-      <td>ENEM 2024</td>
-      <td>with images</td>
-      <td>No</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2024_images</td>
-      <td>ENEM 2024</td>
-      <td>with images</td>
-      <td>Yes</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_2024_captions</td>
-      <td>ENEM 2024</td>
-      <td>with captions</td>
-      <td>No</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2024_captions</td>
-      <td>ENEM 2024</td>
-      <td>with captions</td>
-      <td>Yes</td>
-      <td>:heavy_check_mark:</td>
-    </tr>
-    <tr>
-      <td>enem</td>
-      <td>Enem Challenge (2009-2017)</td>
-      <td>-</td>
-      <td>No</td>
-      <td>:x:</td>
-    </tr>
-    <tr>
-      <td>enem_cot</td>
-      <td>Enem Challenge (2009-2017)</td>
-      <td>-</td>
-      <td>Yes</td>
-      <td>:x:</td>
-    </tr>
-    <tr>
-      <td>enem_2022_deprecated</td>
-      <td>ENEM 2022</td>
-      <td>-</td>
-      <td>No</td>
-      <td>:x:</td>
-    </tr>
-    <tr>
-      <td>enem_cot_2022_deprecated</td>
-      <td>ENEM 2022</td>
-      <td>-</td>
-      <td>Yes</td>
-      <td>:x:</td>
-    </tr>
-  </tbody>
-</table>
+### 2. Análise Semântica e Preditiva
 
+- **Embeddings semânticos** para todas as questões (2009-2025)
+- **Correlação semântica** entre áreas e anos
+- **Similaridade intra e inter-área**
+- **Análise de dificuldade** heurística e baseada em TRI
+- **Modelagem de tópicos** (LDA, NMF)
+- **Série temporal** e predições
 
-<!-- 1. **enem_2022_blind**: ENEM 2022 without images and without CoT prompting.
-2. **enem_cot_2022_blind**: ENEM 2022 without images and with CoT prompting.
-3. **enem_2022_images**: ENEM 2022 with images and without CoT prompting.
-4. **enem_cot_2022_images**: ENEM 2022 with images and with CoT prompting.
-5. **enem_2022_captions**: ENEM 2022 with captions and without CoT prompting.
-6. **enem_cot_2022_captions**: ENEM 2022 with captions and with CoT prompting.
-7. **enem_2023_blind**: ENEM 2023 without images and without CoT prompting.
-8. **enem_cot_2023_blind**: ENEM 2023 without images and with CoT prompting.
-9. **enem_2023_images**: ENEM 2023 with images and without CoT prompting.
-10. **enem_cot_2023_images**: ENEM 2023 with images and with CoT prompting.
-11. **enem_2023_captions**: ENEM 2023 with captions and without CoT prompting.
-12. **enem_cot_2023_captions**: ENEM 2023 with captions and with CoT prompting.
-13. **enem**: Enem Challenge (2009-2017) without CoT prompting (deprecated).
-14. **enem_cot**: Enem Challenge (2009-2017) with CoT prompting (deprecated).
-15. **enem_2022_deprecated**: Enem 2022 without CoT prompting (deprecated).
-16. **enem_cot_2022_deprecated**: Enem 2022 with CoT prompting (deprecated). -->
+### 3. Integração com Maritaca Sabiá-3
 
-## Reproducing the results
-To reproduce the experiments described in the paper, please follow the steps below:
+- Sistema completo de avaliação
+- Análise de erros automatizada
+- Sugestões de melhorias de prompt
+- Testes com amostras balanceadas
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/piresramon/gpt-4-enem.git
+### 4. Visualizações e Relatórios
+
+- Gráficos de evolução temporal
+- Matrizes de correlação semântica
+- Dashboards HTML interativos
+- Relatórios detalhados em JSON/CSV
+
+---
+
+## 📊 Dados
+
+### Datasets Disponíveis
+
+- **ENEM 2022, 2023, 2024**: Formatos JSONL com imagens e captions
+- **ENEM 2009-2023**: Dados históricos integrados
+- **ENEM 2025**: Dados parciais (em processamento)
+- **Alvorada-bench**: Dataset externo para treinamento
+
+### Acesso aos Dados
+
+Os datasets também estão disponíveis via 🤗 Datasets:
+```
+https://huggingface.co/datasets/maritaca-ai/enem
 ```
 
-### 2. Install the required packages:
+### Estrutura dos Dados
+
+```json
+{
+  "id": "enem_2024_languages_1",
+  "exam": 2024,
+  "area": "languages",
+  "question": "Texto da pergunta...",
+  "context": "Texto de apoio...",
+  "alternatives": ["A) ...", "B) ...", "C) ...", "D) ...", "E) ..."],
+  "label": "C",
+  "description": "Descrição textual de imagens",
+  "figures": ["path/to/image.png"]
+}
+```
+
+---
+
+## 🔧 Instalação
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/xtribr/enemnlp.git
+cd enemnlp
+```
+
+### 2. Instale as dependências
+
 ```bash
 pip install -e .
 ```
-### 3. Set the API keys:
-Visit [openai](https://platform.openai.com/api-keys) to retrieve OpenAI API keys and [maritalk](https://plataforma.maritaca.ai/chaves-de-api) to retrieve MariTalk API keys. Insert them into your env variables.
+
+### 3. Dependências adicionais para análises
+
 ```bash
-OPENAI_API_SECRET_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-MARITALK_API_SECRET_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+pip install transformers sentence-transformers
+pip install scikit-learn nltk pandas numpy
+pip install matplotlib seaborn plotly
 ```
-### 4. Run the experiments:
 
-To reproduce the results of the Table 1, run the following commands:
+### 4. Configure as chaves de API
 
 ```bash
-# running 3-shot with CoT for Sabiá-3 on ENEM 2024
+# OpenAI
+export OPENAI_API_SECRET_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Maritaca
+export CURSORMINIMAC=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# ou
+export MARITALK_API_SECRET_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+---
+
+## ⚡ Uso Rápido
+
+### Avaliar Modelos no ENEM
+
+#### Sabiá-3 (Maritaca)
+
+```bash
 python main.py \
     --model maritalk \
     --model_args engine=sabia-3 \
@@ -312,8 +161,11 @@ python main.py \
     --description_dict_path description.json \
     --num_fewshot 3 \
     --conversation_template chatgpt
+```
 
-# running 3-shot with CoT for GPT-4o on ENEM 2024
+#### GPT-4o
+
+```bash
 python main.py \
     --model chatgpt \
     --model_args engine=gpt-4o \
@@ -322,15 +174,186 @@ python main.py \
     --num_fewshot 3 \
     --conversation_template chatgpt
 ```
-To experiment other Maritaca AI or OpenAI models, just change the engine. The tasks `enem_cot_*_images` are not supported by text-based models.
-<!-- python main.py --model chatgpt --model_args engine=gpt-4-1106-preview --tasks enem_cot_2023 --description_dict_path description.json --num_fewshot 3 --conversation_template chatgpt -->
-It is possible to use a different number of few-shot examples (maximum 3).
 
-> [!Tip]
-> You can experiment any other model available in the 🤗 Transformers library. Just change the `model` and `model_args` parameters. It is necessary to disable the parameter `conversation_template`.
+### Teste Rápido com 100 Questões por Área
 
-## Citation
-If you use this code or data in your research, please cite the following papers:
+```bash
+python scripts/analise_enem/63_teste_100_questoes_por_area.py
+```
+
+### Análises Semânticas
+
+```bash
+# Gerar embeddings
+python scripts/analise_enem/04_gerar_embeddings.py
+
+# Matriz de correlação semântica
+python scripts/analise_enem/60_matriz_correlacao_semantica.py
+
+# Análise de similaridade detalhada
+python scripts/analise_enem/61_analise_similaridade_semantica_detalhada.py
+
+# Exemplos de similaridade
+python scripts/analise_enem/62_exemplos_similaridade_semantica.py
+```
+
+---
+
+## 📈 Análises Avançadas
+
+### Pipeline Completo de Análise
+
+```bash
+# 1. Carregar dados históricos
+python scripts/analise_enem/01_carregar_dados_historico.py
+
+# 2. Normalizar dados
+python scripts/analise_enem/02_normalizar_dados.py
+
+# 3. Validar dados
+python scripts/analise_enem/03_validar_dados.py
+
+# 4. Gerar embeddings
+python scripts/analise_enem/04_gerar_embeddings.py
+
+# 5. Análise de dificuldade
+python scripts/analise_enem/08_heuristica_dificuldade.py
+
+# 6. Similaridade entre provas
+python scripts/analise_enem/09_similaridade_provas.py
+
+# 7. Série temporal
+python scripts/analise_enem/11_serie_temporal.py
+
+# 8. Visualizações
+python scripts/analise_enem/17_visualizacoes.py
+```
+
+### Scripts de Execução Automática
+
+```bash
+# Executar todas as análises
+bash scripts/analise_enem/executar_todas_analises.sh
+
+# Monitorar progresso
+python scripts/analise_enem/monitorar_treinamento.py
+```
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+enemnlp/
+├── data/
+│   ├── enem/              # Datasets ENEM (2022, 2023, 2024, 2025)
+│   ├── processed/         # Dados processados e normalizados
+│   ├── embeddings/        # Embeddings semânticos gerados
+│   └── treino/            # Dados de treinamento
+│
+├── scripts/
+│   └── analise_enem/      # Scripts de análise
+│       ├── 01_carregar_dados_historico.py
+│       ├── 04_gerar_embeddings.py
+│       ├── 60_matriz_correlacao_semantica.py
+│       ├── 63_teste_100_questoes_por_area.py
+│       └── ...
+│
+├── docs/                  # Documentação completa
+│   ├── guia_google_colab.md
+│   ├── possibilidades_maritaca_enem.md
+│   └── ...
+│
+├── notebooks/             # Notebooks para Google Colab
+│   └── gpt4_enem_colab_setup.ipynb
+│
+├── reports/               # Relatórios e visualizações
+│   ├── visualizacoes/     # Gráficos e heatmaps
+│   └── avaliacoes/        # Resultados de avaliações
+│
+├── lm_eval/               # Framework de avaliação (adaptado)
+│   └── models/
+│       └── maritalk.py    # Integração com Maritaca
+│
+└── main.py                # Script principal de avaliação
+```
+
+---
+
+## 📊 Resultados
+
+### Performance dos Modelos no ENEM 2024
+
+| Área | GPT-4o (blind) | GPT-4o (CoT+captions) | Sabiá-3 (blind) | Sabiá-3 (CoT+captions) |
+|------|----------------|------------------------|-----------------|------------------------|
+| Linguagens | 88.89 | 91.11 | 86.67 | **93.33** |
+| Humanas | 100.00 | 100.00 | 100.00 | 100.00 |
+| Natureza | 68.18 | 93.18 | 72.73 | 86.36 |
+| Matemática | 60.00 | 91.11 | 60.00 | 82.22 |
+| **Total** | **79.33** | **93.85** | **79.89** | **90.50** |
+
+*Resultados usando 3-shot prompts com Chain-of-Thought*
+
+### Análises Semânticas
+
+- **Similaridade Intra-Área**: 0.890 (muito alta consistência temporal)
+- **Similaridade Inter-Área Correlatas**: 0.566 (moderada)
+- **Correlação Linguagens ↔ Humanas**: 0.789 (alta)
+- **Correlação Natureza ↔ Matemática**: 0.649 (média-alta)
+
+---
+
+## 🎓 Tarefas Disponíveis
+
+O projeto implementa **22 tarefas** diferentes para avaliação:
+
+| Tarefa | Edição | Imagens | CoT | Descrição |
+|--------|--------|---------|-----|-----------|
+| `enem_cot_2024_blind` | 2024 | ❌ | ✅ | Sem imagens, com CoT |
+| `enem_cot_2024_captions` | 2024 | 📝 | ✅ | Com captions, com CoT |
+| `enem_cot_2024_images` | 2024 | 🖼️ | ✅ | Com imagens, com CoT |
+| `enem_2024_blind` | 2024 | ❌ | ❌ | Sem imagens, sem CoT |
+| ... | ... | ... | ... | ... |
+
+*Consulte a documentação completa para todas as 22 tarefas disponíveis.*
+
+---
+
+## 📚 Documentação
+
+Documentação completa disponível em `docs/`:
+
+- [Guia Google Colab](docs/guia_google_colab.md)
+- [Possibilidades Maritaca ENEM](docs/possibilidades_maritaca_enem.md)
+- [Sistema de Análises](README_ANALISES.md)
+- [Plano de Análise Preditiva](docs/plano_analise_preditiva_enem.md)
+
+---
+
+## 🔬 Uso no Google Colab
+
+Para usar com GPU no Google Colab, consulte:
+
+- [Notebook de Setup](notebooks/gpt4_enem_colab_setup.ipynb)
+- [Guia Completo](docs/guia_google_colab.md)
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Por favor:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+---
+
+## 📄 Citação
+
+Se você usar este código ou dados em sua pesquisa, por favor cite:
 
 ```bibtex
 @misc{pires2023evaluating,
@@ -354,5 +377,33 @@ If you use this code or data in your research, please cite the following papers:
 }
 ```
 
-<!-- ## Contact
-If you have any questions or comments, please feel free to contact us at pires.ramon@gmail.com. -->
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 👥 Autores
+
+- **Ramon Pires** - *Trabalho original*
+- **Equipe XTRI** - *Análises avançadas e integração com Maritaca*
+
+---
+
+## 🙏 Agradecimentos
+
+- [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) pelo framework base
+- [Maritaca AI](https://maritaca.ai) pela API Sabiá-3
+- Comunidade open source brasileira
+
+---
+
+## 📞 Contato
+
+Para dúvidas ou sugestões, abra uma [issue](https://github.com/xtribr/enemnlp/issues) no GitHub.
+
+---
+
+**⭐ Se este projeto foi útil para você, considere dar uma estrela!**
